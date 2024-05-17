@@ -7538,6 +7538,17 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="No description has been provided for this image" src="gpu.png" style="display:block; margin:auto;"/></p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h3><p>The primary purpose of this project is to guide you through the entire data science pipeline. We have chosen to analyze how a GPU's release date and specifications impact its manufacturer's suggested retail price (MSRP). By doing so, we aim to capture the relationship between the release date, specifications, and price of GPUs to predict future GPU specifications based on their release date and price. This ensures that buyers get a fair deal and allows us to visualize the overall trend of price-to-performance over time.</p>
 <p>Why are GPUs so important? GPU stands for graphics processing unit, and it is hardware designed to handle large amounts of parallel processing. This makes it essential for tasks requiring intensive computational power, such as rendering complex graphics, machine learning, and scientific simulations. GPUs are critical to individual consumers for gaming, video editing, content creation, and companies utilizing their power for machine learning and deep learning. By analyzing and predicting the future prices of GPUS as well as how powerful they may become, it allows people to see if a new line of GPUs fits the general price-to-performance trend and, from that, make the decision to wait for prices to go down, buy an older generation GPU, or wait for the next generation depending on their needs. Choosing a cost-effective GPU is essential for larger companies requiring hundreds to tens of thousands of GPUs and general consumers.</p>
 </div>
@@ -7590,7 +7601,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7605,6 +7616,166 @@ a.anchor-link {
 <span class="n">table</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">"table"</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="s2">"processors"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">table</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;table class="processors"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class="mfgr" colspan="8" id="AMD"&gt;AMD&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;thead class="colheader"&gt;
+&lt;tr&gt;
+&lt;th&gt;Product Name&lt;/th&gt;
+&lt;th&gt;GPU Chip&lt;/th&gt;
+&lt;th&gt;Released&lt;/th&gt;
+&lt;th&gt;Bus&lt;/th&gt;
+&lt;th&gt;Memory&lt;/th&gt;
+&lt;th&gt;GPU clock&lt;/th&gt;
+&lt;th&gt;Memory clock&lt;/th&gt;
+&lt;th&gt;Shaders / TMUs / ROPs&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;
+&lt;td class="vendor-AMD"&gt;
+&lt;a href="/gpu-specs/radeon-rx-7600-xt.c4190"&gt;Radeon RX 7600 XT&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="/gpu-specs/amd-navi-33.g1001"&gt;Navi 33&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Jan 8th, 2024&lt;/td&gt;
+&lt;td&gt;PCIe 4.0 x8&lt;/td&gt;
+&lt;td&gt;16 GB, GDDR6, 128 bit&lt;/td&gt;
+&lt;td&gt;1980 MHz&lt;/td&gt;
+&lt;td&gt;2250 MHz&lt;/td&gt;
+&lt;td&gt;2048 / 128 / 64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class="mfgr" colspan="8" id="NVIDIA"&gt;NVIDIA&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;thead class="colheader"&gt;
+&lt;tr&gt;
+&lt;th&gt;Product Name&lt;/th&gt;
+&lt;th&gt;GPU Chip&lt;/th&gt;
+&lt;th&gt;Released&lt;/th&gt;
+&lt;th&gt;Bus&lt;/th&gt;
+&lt;th&gt;Memory&lt;/th&gt;
+&lt;th&gt;GPU clock&lt;/th&gt;
+&lt;th&gt;Memory clock&lt;/th&gt;
+&lt;th&gt;Shaders / TMUs / ROPs&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;
+&lt;td class="vendor-NVIDIA"&gt;
+&lt;a href="/gpu-specs/geforce-rtx-3050-6-gb.c4188"&gt;GeForce RTX 3050 6 GB&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="/gpu-specs/nvidia-ga107.g988"&gt;GA107&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Feb 2nd, 2024&lt;/td&gt;
+&lt;td&gt;PCIe 4.0 x8&lt;/td&gt;
+&lt;td&gt;6 GB, GDDR6, 96 bit&lt;/td&gt;
+&lt;td&gt;1042 MHz&lt;/td&gt;
+&lt;td&gt;1750 MHz&lt;/td&gt;
+&lt;td&gt;2304 / 72 / 32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="vendor-NVIDIA"&gt;
+&lt;a href="/gpu-specs/geforce-rtx-4060-ad106.c3891"&gt;GeForce RTX 4060 AD106&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="/gpu-specs/nvidia-ad106.g1014"&gt;AD106&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Apr 2024&lt;/td&gt;
+&lt;td&gt;PCIe 4.0 x8&lt;/td&gt;
+&lt;td&gt;8 GB, GDDR6, 128 bit&lt;/td&gt;
+&lt;td&gt;1830 MHz&lt;/td&gt;
+&lt;td&gt;2125 MHz&lt;/td&gt;
+&lt;td&gt;3072 / 96 / 48&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="vendor-NVIDIA"&gt;
+&lt;a href="/gpu-specs/geforce-rtx-4060-ti-ad104.c4204"&gt;GeForce RTX 4060 Ti AD104&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="/gpu-specs/nvidia-ad104.g1013"&gt;AD104&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Apr 2024&lt;/td&gt;
+&lt;td&gt;PCIe 4.0 x8&lt;/td&gt;
+&lt;td&gt;8 GB, GDDR6, 128 bit&lt;/td&gt;
+&lt;td&gt;2310 MHz&lt;/td&gt;
+&lt;td&gt;2250 MHz&lt;/td&gt;
+&lt;td&gt;4352 / 136 / 48&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="vendor-NVIDIA"&gt;
+&lt;a href="/gpu-specs/geforce-rtx-4070-ad103.c4205"&gt;GeForce RTX 4070 AD103&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="/gpu-specs/nvidia-ad103.g1012"&gt;AD103&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Mar 2024&lt;/td&gt;
+&lt;td&gt;PCIe 4.0 x16&lt;/td&gt;
+&lt;td&gt;12 GB, GDDR6X, 192 bit&lt;/td&gt;
+&lt;td&gt;1920 MHz&lt;/td&gt;
+&lt;td&gt;1313 MHz&lt;/td&gt;
+&lt;td&gt;5888 / 184 / 64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="vendor-NVIDIA"&gt;
+&lt;a href="/gpu-specs/geforce-rtx-4070-super.c4186"&gt;GeForce RTX 4070 SUPER&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="/gpu-specs/nvidia-ad104.g1013"&gt;AD104&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Jan 8th, 2024&lt;/td&gt;
+&lt;td&gt;PCIe 4.0 x16&lt;/td&gt;
+&lt;td&gt;12 GB, GDDR6X, 192 bit&lt;/td&gt;
+&lt;td&gt;1980 MHz&lt;/td&gt;
+&lt;td&gt;1313 MHz&lt;/td&gt;
+&lt;td&gt;7168 / 224 / 80&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="vendor-NVIDIA"&gt;
+&lt;a href="/gpu-specs/geforce-rtx-4070-ti-super.c4187"&gt;GeForce RTX 4070 Ti SUPER&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="/gpu-specs/nvidia-ad103.g1012"&gt;AD103&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Jan 8th, 2024&lt;/td&gt;
+&lt;td&gt;PCIe 4.0 x16&lt;/td&gt;
+&lt;td&gt;16 GB, GDDR6X, 256 bit&lt;/td&gt;
+&lt;td&gt;2340 MHz&lt;/td&gt;
+&lt;td&gt;1313 MHz&lt;/td&gt;
+&lt;td&gt;8448 / 264 / 96&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="vendor-NVIDIA"&gt;
+&lt;a href="/gpu-specs/geforce-rtx-4080-super.c4182"&gt;GeForce RTX 4080 SUPER&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="/gpu-specs/nvidia-ad103.g1012"&gt;AD103&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Jan 8th, 2024&lt;/td&gt;
+&lt;td&gt;PCIe 4.0 x16&lt;/td&gt;
+&lt;td&gt;16 GB, GDDR6X, 256 bit&lt;/td&gt;
+&lt;td&gt;2295 MHz&lt;/td&gt;
+&lt;td&gt;1438 MHz&lt;/td&gt;
+&lt;td&gt;10240 / 320 / 112&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</pre>
 </div>
 </div>
 </div>
@@ -7628,7 +7799,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7639,6 +7810,49 @@ a.anchor-link {
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="n">features</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>product name</th>
+<th>gpu chip</th>
+<th>released</th>
+<th>bus</th>
+<th>memory</th>
+<th>gpu clock</th>
+<th>memory clock</th>
+<th>shaders / tmus / rops</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 </div>
@@ -7747,6 +7961,17 @@ a.anchor-link {
 <span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'data.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>The csv file can be found <strong><a href="https://masksenpai.github.io/GPU_2004-2024.csv">here</a></strong>.</p>
 </div>
 </div>
 </div>
