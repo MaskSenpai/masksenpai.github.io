@@ -1,0 +1,940 @@
+Product Name,GPU Chip,Released,Bus,Memory,GPU clock,Memory clock,Shaders / TMUs / ROPs,MSRP
+Radeon 9000 PRO Mac Edition,RV250,"Mar 14th, 2004",AGP 4x,"64 MB, DDR, 128 bit",275 MHz,275 MHz,4 / 1 / 4 / 4,
+Radeon 9250 PCI,RV280,"Mar 1st, 2004",PCI,"128 MB, DDR, 64 bit",240 MHz,200 MHz,4 / 1 / 4 / 4,
+Radeon 9250,RV280,"Mar 1st, 2004",AGP 8x,"64 MB, DDR, 64 bit",240 MHz,200 MHz,4 / 1 / 4 / 4,
+Radeon 9800 PRO Mac Edition,R360,"Mar 4th, 2004",AGP Pro 8x,"128 MB, DDR, 256 bit",378 MHz,338 MHz,8 / 4 / 8 / 8,
+Radeon 9800 XT Mac Edition,R360,"Mar 14th, 2004",AGP Pro 8x,"256 MB, DDR, 256 bit",412 MHz,365 MHz,8 / 4 / 8 / 8,
+Radeon X300 SE,RV370,"Sep 1st, 2004",PCIe 1.0 x16,"64 MB, DDR, 64 bit",325 MHz,200 MHz,4 / 2 / 4 / 4,
+Radeon X300 LE,RV370,"Sep 1st, 2004",PCIe 1.0 x16,"64 MB, DDR, 128 bit",325 MHz,200 MHz,4 / 2 / 4 / 4,
+Radeon X300,RV370,"Sep 1st, 2004",PCIe 1.0 x16,"64 MB, DDR, 128 bit",375 MHz,200 MHz,4 / 2 / 4 / 4,
+Radeon X600 SE,RV370,"Sep 1st, 2004",PCIe 1.0 x16,"128 MB, DDR, 64 bit",325 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X600,RV370,"Sep 1st, 2004",PCIe 1.0 x16,"256 MB, DDR, 128 bit",400 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X600 XT,RV380,"Sep 1st, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",500 MHz,370 MHz,4 / 2 / 4 / 4,
+Radeon X600 PRO,RV380,"Sep 1st, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",400 MHz,300 MHz,4 / 2 / 4 / 4,
+Radeon X600 PRO,RV370,"Sep 1st, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",400 MHz,300 MHz,4 / 2 / 4 / 4,
+Radeon X700 AGP,RV410,"Sep 1st, 2004",AGP 8x,"128 MB, DDR, 128 bit",400 MHz,250 MHz,8 / 6 / 8 / 8,
+Radeon X700 PRO AGP,RV410,"Sep 1st, 2004",AGP 8x,"128 MB, DDR, 128 bit",425 MHz,472 MHz,8 / 6 / 8 / 8,
+Radeon X700 LE,RV410,"Dec 21st, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",400 MHz,350 MHz,8 / 6 / 8 / 8,
+Radeon X700,RV410,"Sep 1st, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",400 MHz,250 MHz,8 / 6 / 8 / 8,
+Radeon X700 PRO,RV410,"Sep 1st, 2004",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",425 MHz,430 MHz,8 / 6 / 8 / 8,179
+Radeon X700 XT,RV410,"Sep 1st, 2004",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",475 MHz,525 MHz,8 / 6 / 8 / 8,199
+Radeon X800 SE AGP,R420,"Sep 1st, 2004",AGP 8x,"256 MB, DDR, 256 bit",450 MHz,400 MHz,8 / 6 / 8 / 8,
+Radeon X800 PRO AGP,R420,"May 1st, 2004",AGP 8x,"256 MB, GDDR3, 256 bit",475 MHz,450 MHz,12 / 6 / 12 / 12,
+Radeon X800 VE AGP,R420,"Sep 1st, 2004",AGP 8x,"256 MB, GDDR3, 256 bit",425 MHz,398 MHz,16 / 6 / 16 / 16,
+Radeon X800 XL AGP,R430,"May 1st, 2004",AGP 8x,"256 MB, GDDR3, 256 bit",400 MHz,500 MHz,16 / 6 / 16 / 16,
+Radeon X800 XT AGP,R420,"Mar 1st, 2004",AGP 8x,"256 MB, GDDR3, 256 bit",500 MHz,500 MHz,16 / 6 / 16 / 16,
+Radeon X800 XT Mac Edition,R423,"Dec 1st, 2004",AGP Pro 8x,"256 MB, GDDR3, 256 bit",475 MHz,500 MHz,16 / 6 / 16 / 16,
+Radeon X800 XT Platinum AGP,R420,"May 1st, 2004",AGP 8x,"256 MB, GDDR3, 256 bit",520 MHz,560 MHz,16 / 6 / 16 / 16,
+Radeon X800 SE,R423,"Oct 4th, 2004",PCIe 1.0 x16,"128 MB, DDR, 256 bit",425 MHz,350 MHz,8 / 6 / 8 / 8,
+Radeon X800,R430,"Dec 1st, 2004",PCIe 1.0 x16,"256 MB, DDR, 256 bit",400 MHz,350 MHz,12 / 6 / 12 / 12,249
+Radeon X800 PRO,R423,"May 1st, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",475 MHz,450 MHz,12 / 6 / 12 / 12,399
+Radeon X800 XL,R430,"Dec 1st, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",400 MHz,490 MHz,16 / 6 / 16 / 16,349
+Radeon X800 XT,R423,"Dec 1st, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",500 MHz,500 MHz,16 / 6 / 16 / 16,499
+Radeon X800 XT Platinum,R423,"Mar 1st, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",520 MHz,560 MHz,16 / 6 / 16 / 16,499
+Radeon X850 PRO,R480,"Dec 1st, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",507 MHz,520 MHz,12 / 6 / 12 / 12,279
+Radeon X850 XT,R480,"Dec 1st, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",520 MHz,540 MHz,16 / 6 / 16 / 16,499
+Radeon X850 XT Platinum,R480,"Dec 21st, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",540 MHz,590 MHz,16 / 6 / 16 / 16,549
+All-In-Wonder 9200 SE,RV280,"Jan 26th, 2004",AGP 8x,"128 MB, DDR, 64 bit",250 MHz,164 MHz,4 / 1 / 4 / 4,
+All-In-Wonder 9200,RV280,"Jan 26th, 2004",AGP 8x,"128 MB, DDR, 128 bit",250 MHz,200 MHz,4 / 1 / 4 / 4,
+All-In-Wonder 9600 XT,RV360,"Feb 6th, 2004",AGP 8x,"128 MB, DDR, 128 bit",527 MHz,324 MHz,4 / 2 / 4 / 4,
+All-In-Wonder X800 GT,R430,"Sep 21st, 2004",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",398 MHz,492 MHz,8 / 6 / 8 / 8,249
+All-In-Wonder X800 XT,R420,"Sep 21st, 2004",AGP 8x,"256 MB, GDDR3, 256 bit",500 MHz,500 MHz,16 / 6 / 16 / 16,179
+QID,MP-A4,"Dec 17th, 2004",AGP 8x,"256 MB, DDR, 128 bit",250 MHz,300 MHz,2 / 2 / 8 / 2,
+QID LP PCI,MP-A4,"Dec 17th, 2004",PCI-X,"128 MB, DDR, 64 bit",250 MHz,300 MHz,2 / 2 / 8 / 2,
+QID LP PCIe,MP-A4,"Dec 17th, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",250 MHz,300 MHz,2 / 2 / 8 / 2,799
+QID PRO,MP-A4,"Dec 17th, 2004",PCI-X,"256 MB, DDR, 64 bit",250 MHz,300 MHz,2 / 2 / 8 / 2,
+Parhelia 128 MB,Parhelia-512,"Mar 30th, 2004",AGP 8x,"128 MB, DDR, 256 bit",250 MHz,300 MHz,4 / 4 / 16 / 4,
+Parhelia 256 MB,Parhelia-512,"Mar 30th, 2004",AGP 8x,"256 MB, DDR, 256 bit",250 MHz,325 MHz,4 / 4 / 16 / 4,
+M9125 PCIe x16,PX-A1,Unknown,PCIe 1.0 x16,"512 MB, DDR2, 64 bit",250 MHz,300 MHz,2 / 2 / 8 / 2,
+GeForce FX 5500 PCI,NV34B,"Mar 17th, 2004",PCI,"256 MB, DDR, 128 bit",270 MHz,200 MHz,4 / 2 / 4 / 4,
+GeForce FX 5500,NV34B,"Mar 17th, 2004",AGP 8x,"64 MB, DDR, 128 bit",270 MHz,166 MHz,4 / 2 / 4 / 4,
+GeForce FX 5700 LE,NV36,"Mar 1st, 2004",AGP 8x,"128 MB, DDR, 64 bit",250 MHz,200 MHz,4 / 3 / 4 / 4,
+GeForce FX 5700 VE,NV36,"Sep 1st, 2004",AGP 8x,"128 MB, DDR, 128 bit",250 MHz,200 MHz,4 / 3 / 4 / 4,
+GeForce FX 5700 EP,NV36,"Sep 1st, 2004",AGP 8x,"128 MB, DDR, 64 bit",425 MHz,200 MHz,4 / 3 / 4 / 4,
+GeForce PCX 4300,NV18C,"Feb 19th, 2004",PCIe 1.0 x16,"64 MB, DDR, 64 bit",250 MHz,166 MHz,2 / 0 / 2 / 2,
+GeForce PCX 5300,NV37,"Feb 17th, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",250 MHz,200 MHz,4 / 2 / 4 / 4,
+GeForce PCX 5750,NV39,"Feb 17th, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",425 MHz,275 MHz,4 / 3 / 4 / 4,
+GeForce PCX 5950,NV38,"Feb 17th, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",475 MHz,425 MHz,4 / 3 / 8 / 4,
+GeForce 6200 LE PCI,NV43,"Oct 11th, 2004",PCI,"256 MB, DDR, 64 bit",300 MHz,266 MHz,4 / 3 / 4 / 2,
+GeForce 6200 LE AGP 512 MB,NV44,"Oct 11th, 2004",AGP 8x,"512 MB, DDR2, 128 bit",300 MHz,275 MHz,4 / 3 / 4 / 2,
+GeForce 6200 TurboCache,NV44B,"Dec 15th, 2004",AGP 4x,"64 MB, DDR, 64 bit",350 MHz,250 MHz,4 / 3 / 4 / 2,
+GeForce 6600 AGP,NV43,"Aug 12th, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",300 MHz,250 MHz,8 / 3 / 8 / 4,
+GeForce 6600 GT AGP,NV43,"Nov 14th, 2004",AGP 8x,"128 MB, GDDR3, 128 bit",500 MHz,475 MHz,8 / 3 / 8 / 4,
+GeForce 6800 LE,NV40,"Jul 21st, 2004",AGP 8x,"128 MB, DDR, 256 bit",300 MHz,350 MHz,8 / 4 / 8 / 8,
+GeForce 6800,NV40,"Apr 14th, 2004",AGP 8x,"128 MB, DDR, 256 bit",325 MHz,350 MHz,12 / 5 / 12 / 12,
+GeForce 6800,NV48,"Apr 14th, 2004",AGP 8x,"256 MB, DDR, 256 bit",325 MHz,350 MHz,12 / 5 / 12 / 12,
+GeForce 6800 GT,NV40,"Apr 14th, 2004",AGP 8x,"128 MB, DDR, 256 bit",350 MHz,250 MHz,16 / 6 / 16 / 16,
+GeForce 6800 GT,NV48,"Apr 14th, 2004",AGP 8x,"256 MB, GDDR3, 256 bit",350 MHz,500 MHz,16 / 6 / 16 / 16,
+GeForce 6800 GT DDL,NV40,"Apr 14th, 2004",AGP Pro 8x,"256 MB, GDDR3, 256 bit",350 MHz,500 MHz,16 / 6 / 16 / 16,499
+GeForce 6800 Ultra,NV40,"Apr 14th, 2004",AGP 8x,"256 MB, GDDR3, 256 bit",425 MHz,550 MHz,16 / 6 / 16 / 16,
+GeForce 6800 Ultra DDL,NV40,"Apr 14th, 2004",AGP Pro 8x,"256 MB, GDDR3, 256 bit",400 MHz,550 MHz,16 / 6 / 16 / 16,599
+GeForce 6200 SE TurboCache,NV44,"Dec 15th, 2004",PCIe 1.0 x16,"64 MB, DDR, 32 bit",350 MHz,250 MHz,4 / 3 / 4 / 2,
+GeForce 6200,NV43,"Oct 11th, 2004",PCIe 1.0 x16,"128 MB, DDR, 128 bit",300 MHz,275 MHz,4 / 3 / 2 / 4,
+GeForce 6600,NV43,"Aug 12th, 2004",PCIe 1.0 x16,"256 MB, DDR, 128 bit",300 MHz,250 MHz,8 / 3 / 8 / 4,
+GeForce 6600 GT,NV43,"Aug 12th, 2004",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",500 MHz,500 MHz,8 / 3 / 8 / 4,199
+GeForce 6600 GT Dual,NV43,"Aug 12th, 2004",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",500 MHz,560 MHz,8 / 3 / 8 / 4,
+GeForce 6610 XL,NV43,"Nov 14th, 2004",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",400 MHz,400 MHz,8 / 3 / 8 / 4,
+GeForce 6700 XL,NV43,"Nov 14th, 2004",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",525 MHz,550 MHz,8 / 3 / 8 / 4,
+GeForce 6800,NV41,"Nov 8th, 2004",PCIe 1.0 x16,"256 MB, DDR, 256 bit",325 MHz,300 MHz,12 / 5 / 12 / 12,
+GeForce 6800 GTO,NV45,"Apr 14th, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",350 MHz,500 MHz,12 / 5 / 12 / 12,
+GeForce 6800 GT,NV45,"Jun 8th, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",350 MHz,500 MHz,16 / 6 / 16 / 16,
+GeForce 6800 GT Dual,NV45,"Jun 8th, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",350 MHz,500 MHz,16 / 6 / 16 / 16,
+GeForce 6800 Ultra,NV45,"Jul 26th, 2004",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",425 MHz,550 MHz,16 / 6 / 16 / 16,499
+Playstation Portable GPU 90nm,RE+SE-90nm,"Dec 12th, 2004",IGP,"2 MB, eDRAM, 512 bit",133 MHz,83 MHz,2 / 1 / 5 / 5,
+Radeon 9550 XT,RV350,"May 4th, 2005",AGP 8x,"128 MB, DDR, 128 bit",425 MHz,325 MHz,4 / 2 / 4 / 4,
+Radeon X550 HyperMemory,RV370,"Jul 1st, 2005",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",400 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X550,RV370,"Jul 1st, 2005",PCIe 1.0 x16,"128 MB, DDR, 128 bit",400 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X700 SE,RV410,"Apr 1st, 2005",PCIe 1.0 x16,"128 MB, DDR, 64 bit",400 MHz,250 MHz,4 / 6 / 4 / 4,
+Radeon X740 XL,RV410,"Mar 7th, 2005",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",425 MHz,450 MHz,8 / 6 / 8 / 8,
+Radeon X800 GTO AGP,R430,"Oct 1st, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",400 MHz,490 MHz,12 / 6 / 12 / 12,
+Radeon X800 GTO AGP,R481,"Oct 1st, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",400 MHz,490 MHz,12 / 6 / 12 / 12,
+Radeon X800 GT AGP,R481,"Nov 1st, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",475 MHz,493 MHz,12 / 6 / 12 / 12,
+Radeon X800 GT,R430,"Nov 1st, 2005",PCIe 1.0 x16,"128 MB, DDR, 256 bit",475 MHz,493 MHz,8 / 6 / 8 / 8,
+Radeon X800 GT,R480,"Nov 1st, 2005",PCIe 1.0 x16,"128 MB, DDR, 256 bit",475 MHz,350 MHz,12 / 6 / 12 / 12,
+Radeon X800 GTO,R480,"Nov 1st, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",400 MHz,400 MHz,12 / 6 / 12 / 12,
+Radeon X800 GTO2,R480,"Sep 15th, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",400 MHz,490 MHz,16 / 6 / 16 / 16,164
+Radeon X800 CrossFire Edition,R430,"Oct 28th, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",500 MHz,500 MHz,16 / 6 / 16 / 16,
+Radeon X850 PRO AGP,R481,"Sep 4th, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",500 MHz,500 MHz,12 / 6 / 12 / 12,
+Radeon X850 XT AGP,R481,"Feb 28th, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",520 MHz,540 MHz,16 / 6 / 16 / 16,
+Radeon X850 XT Platinum AGP,R481,"Feb 28th, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",540 MHz,590 MHz,16 / 6 / 16 / 16,
+Radeon X1300 AGP,RV515,"Dec 1st, 2005",AGP 8x,"256 MB, DDR, 128 bit",450 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X1300 PRO AGP,RV515,"Oct 1st, 2005",AGP 8x,"256 MB, DDR, 128 bit",600 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1300 PCI,RV515,"Oct 5th, 2005",PCI,"128 MB, DDR, 128 bit",450 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X1300 PCI,RV516,"Oct 5th, 2005",PCI,"128 MB, DDR2, 64 bit",450 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X1300 LE,RV515,"Oct 5th, 2005",PCIe 1.0 x16,"64 MB, DDR, 64 bit",450 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X1300,RV516,"Oct 5th, 2005",PCIe 1.0 x16,"128 MB, DDR, 128 bit",450 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X1300,RV515,"Dec 1st, 2005",PCIe 1.0 x16,"256 MB, DDR, 128 bit",450 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X1300 PRO,RV515,"Oct 1st, 2005",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",600 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1600 PRO,RV530,"Oct 1st, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",500 MHz,390 MHz,12 / 5 / 4 / 4,199
+Radeon X1600 XT,RV530,"Oct 1st, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",590 MHz,690 MHz,12 / 5 / 4 / 4,
+Radeon X1800 XL,R520,"Oct 1st, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",500 MHz,500 MHz,16 / 8 / 16 / 16,
+Radeon X1800 XT,R520,"Oct 1st, 2005",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,700 MHz,16 / 8 / 16 / 16,549
+Radeon X1800 CrossFire Edition,R520,"Dec 20th, 2005",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,700 MHz,16 / 8 / 16 / 16,
+All-In-Wonder X600 PRO,RV370,"Jul 1st, 2005",PCIe 1.0 x16,"256 MB, DDR, 128 bit",400 MHz,300 MHz,4 / 2 / 4 / 4,
+All-In-Wonder X800 VE,R420,"Apr 27th, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",425 MHz,400 MHz,8 / 6 / 8 / 8,
+All-In-Wonder X800 SE,R420,"Apr 27th, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",425 MHz,400 MHz,8 / 6 / 8 / 8,
+All-In-Wonder X800 XL,R430,"Jan 21st, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",400 MHz,490 MHz,16 / 6 / 16 / 16,329
+All-In-Wonder X1800 XL,R520,"Oct 27th, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",500 MHz,500 MHz,16 / 8 / 16 / 16,429
+All-In-Wonder 2006 AGP Edition,RV350,"Apr 29th, 2005",AGP 8x,"256 MB, DDR, 128 bit",324 MHz,196 MHz,4 / 2 / 4 / 4,199
+All-In-Wonder 2006 PCIe Edition,RV515,"Dec 22nd, 2005",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",450 MHz,400 MHz,4 / 2 / 4 / 4,199
+Xbox 360 GPU 90nm,Xenos Xenon,"Nov 22nd, 2005",IGP,"512 MB, GDDR3, 128 bit",500 MHz,700 MHz,240 / 16 / 8,
+GeForce 6200 LE AGP,NV44,"Apr 4th, 2005",AGP 8x,"128 MB, DDR, 64 bit",350 MHz,266 MHz,2 / 1 / 2 / 2,
+GeForce 6200 AGP,NV44,"Apr 4th, 2005",AGP 8x,"128 MB, DDR, 64 bit",350 MHz,250 MHz,4 / 2 / 4 / 4,
+GeForce 6200 AGP,NV44,"Apr 4th, 2005",AGP 8x,"256 MB, DDR2, 64 bit",350 MHz,266 MHz,4 / 3 / 4 / 2,
+GeForce 6600 LE AGP,NV43,2005,AGP 8x,"128 MB, DDR, 128 bit",300 MHz,200 MHz,4 / 3 / 4 / 4,
+GeForce 6800 XE,NV40,"Sep 30th, 2005",AGP 8x,"256 MB, DDR2, 128 bit",275 MHz,266 MHz,8 / 3 / 8 / 8,
+GeForce 6800 XT,NV48,"Sep 30th, 2005",AGP 8x,"256 MB, DDR, 128 bit",300 MHz,266 MHz,8 / 4 / 8 / 8,
+GeForce 6800 XT,NV40,"Sep 30th, 2005",AGP 8x,"256 MB, DDR, 256 bit",300 MHz,350 MHz,8 / 4 / 8 / 8,
+GeForce 6800 GS,NV40,"Dec 8th, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",350 MHz,500 MHz,12 / 5 / 12 / 12,
+GeForce 6800 XT,NV42,"Sep 30th, 2005",AGP 8x,"256 MB, GDDR3, 256 bit",450 MHz,600 MHz,12 / 5 / 12 / 12,
+GeForce 6200 LE,NV44,"Apr 4th, 2005",PCIe 1.0 x16,"128 MB, DDR, 64 bit",350 MHz,266 MHz,2 / 1 / 2 / 2,
+GeForce 6200 LE,NV44,"Apr 4th, 2005",PCIe 1.0 x16,"64 MB, DDR2, 32 bit",350 MHz,266 MHz,2 / 1 / 2 / 2,
+GeForce 6500,NV44,"Oct 1st, 2005",PCIe 1.0 x16,"128 MB, DDR2, 128 bit",400 MHz,266 MHz,4 / 3 / 4 / 2,
+GeForce 6600 LE,NV43,2005,PCIe 1.0 x16,"128 MB, DDR, 128 bit",300 MHz,250 MHz,4 / 3 / 4 / 4,
+GeForce 6600 VE,NV43,2005,PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",300 MHz,200 MHz,4 / 2 / 4 / 4,
+GeForce 6800 LE,NV41,"Jan 16th, 2005",PCIe 1.0 x16,"256 MB, DDR, 256 bit",325 MHz,300 MHz,8 / 4 / 8 / 8,
+GeForce 6800 XT,NV41,"Sep 30th, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",425 MHz,500 MHz,8 / 4 / 8 / 8,
+GeForce 6800 GS,NV41,"Nov 7th, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",425 MHz,500 MHz,12 / 5 / 12 / 12,249
+GeForce 7800 GT,G70,"Aug 11th, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",400 MHz,500 MHz,20 / 7 / 20 / 16,449
+GeForce 7800 GTX,G70,"Jun 22nd, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",430 MHz,600 MHz,24 / 8 / 24 / 16,599
+GeForce 7800 GTX 512,G70,"Nov 14th, 2005",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",500 MHz,800 MHz,24 / 8 / 24 / 16,649
+GeForce 7800 GT Dual,G70,"Aug 11th, 2005",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",400 MHz,500 MHz,20 / 7 / 20 / 16,799
+Playstation 2 GPU 90nm,EE+GS-90nm,"May 26th, 2005",IGP,"4 MB, eDRAM, 2560 bit",147 MHz,150 MHz,16 / 2 / 8 / 16,
+Volari 8300,XG47,"Nov 1st, 2005",PCIe 1.0 x16,"128 MB, DDR, 64 bit",300 MHz,300 MHz,4 / 2 / 8 / 4,
+Volari 8600 XT,XG45,Never Released,PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",450 MHz,450 MHz,8 / 2 / 8 / 4,
+Radeon X300 SE HyperMemory,RV370,"Oct 25th, 2006",PCIe 1.0 x16,"128 MB, DDR, 64 bit",325 MHz,300 MHz,4 / 2 / 4 / 4,
+Radeon X850 CrossFire Edition,R480,"Sep 10th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",520 MHz,540 MHz,16 / 6 / 16 / 16,549
+Radeon X1050 AGP,RV350,"Dec 7th, 2006",AGP 8x,"128 MB, DDR, 128 bit",250 MHz,200 MHz,4 / 2 / 4 / 4,
+Radeon X1050,RV370,"Dec 7th, 2006",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",400 MHz,333 MHz,4 / 2 / 4 / 4,
+Radeon X1300 XT AGP,RV530,"Aug 12th, 2006",AGP 8x,"256 MB, GDDR3, 128 bit",500 MHz,400 MHz,12 / 5 / 4 / 4,
+Radeon X1300 CE,RV505,"Oct 27th, 2006",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",350 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1300 PRO,RV516,"Nov 1st, 2006",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",600 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1300 XT,RV530,"Aug 12th, 2006",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",500 MHz,400 MHz,12 / 5 / 4 / 4,
+Radeon X1650 PRO AGP,RV535,"Oct 15th, 2006",AGP 8x,"256 MB, GDDR3, 128 bit",600 MHz,700 MHz,12 / 5 / 4 / 4,
+Radeon X1650 XT AGP,RV560,"Oct 30th, 2006",AGP 8x,"512 MB, GDDR3, 128 bit",540 MHz,680 MHz,24 / 8 / 8 / 8,
+Radeon X1650 PRO,RV535,"Aug 23rd, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",600 MHz,700 MHz,12 / 5 / 4 / 4,
+Radeon X1650 XT,RV560,"Oct 30th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",525 MHz,700 MHz,24 / 8 / 8 / 8,199
+Radeon X1650 XT Dual,RV560,"Oct 30th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",525 MHz,700 MHz,24 / 8 / 8 / 8,
+Radeon X1800 GTO,R520,"Mar 1st, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",500 MHz,495 MHz,12 / 8 / 12 / 12,
+Radeon X1800 GTO2,R520,"Mar 1st, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",500 MHz,500 MHz,12 / 8 / 12 / 12,
+Radeon X1900 G5 Mac Edition,R580,"Nov 6th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",575 MHz,600 MHz,36 / 8 / 12 / 12,349
+Radeon X1900 GT,R580,"May 1st, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",575 MHz,600 MHz,36 / 8 / 12 / 12,
+Radeon X1900 XT,R580,"Jan 24th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",625 MHz,725 MHz,48 / 8 / 16 / 16,299
+Radeon X1900 CrossFire Edition,R580,"Jan 24th, 2006",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",625 MHz,725 MHz,48 / 8 / 16 / 16,
+Radeon X1900 XTX,R580,"Jan 24th, 2006",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",650 MHz,775 MHz,48 / 8 / 16 / 16,399
+Radeon X1950 PRO AGP,RV570,"Oct 25th, 2006",AGP 8x,"512 MB, GDDR3, 256 bit",575 MHz,690 MHz,36 / 8 / 12 / 12,
+Radeon X1950 XT AGP,R580+,"Oct 17th, 2006",AGP 8x,"256 MB, GDDR3, 256 bit",625 MHz,703 MHz,48 / 8 / 16 / 16,
+Radeon X1950 PRO,RV570,"Oct 1st, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",575 MHz,690 MHz,36 / 8 / 12 / 12,
+Radeon X1950 XT,R580+,"Oct 17th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",625 MHz,900 MHz,48 / 8 / 16 / 16,
+Radeon X1950 CrossFire Edition,R580+,"Sep 10th, 2006",PCIe 1.0 x16,"512 MB, GDDR4, 256 bit",650 MHz,1000 MHz,48 / 8 / 16 / 16,
+Radeon X1950 XTX,R580+,"Oct 17th, 2006",PCIe 1.0 x16,"512 MB, GDDR4, 256 bit",650 MHz,1000 MHz,48 / 8 / 16 / 16,449
+All-In-Wonder X1900,R580,"Jan 13th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",500 MHz,477 MHz,48 / 8 / 16 / 16,499
+Wii GPU,Hollywood,"Nov 19th, 2006",IGP,"64 MB, GDDR3, 64 bit",243 MHz,243 MHz,4 / 1 / 4 / 4,
+Parhelia APVe,Parhelia-512,"Jun 14th, 2006",PCIe 1.0 x16,"128 MB, DDR, 128 bit",250 MHz,250 MHz,2 / 2 / 8 / 2,
+GeForce 7300 GT AGP,G73B,"May 15th, 2006",AGP 8x,"128 MB, DDR2, 128 bit",350 MHz,325 MHz,8 / 4 / 8 / 8,
+GeForce 7600 GS AGP,G73B,"Jul 1st, 2006",AGP 8x,"256 MB, DDR2, 128 bit",400 MHz,400 MHz,12 / 5 / 12 / 8,
+GeForce 7600 GS AGP,G71,"Jul 1st, 2006",AGP 8x,"256 MB, GDDR3, 128 bit",500 MHz,725 MHz,12 / 5 / 12 / 8,
+GeForce 7800 GS AGP,G70,"Feb 2nd, 2006",AGP 8x,"256 MB, GDDR3, 256 bit",375 MHz,600 MHz,16 / 6 / 16 / 8,
+GeForce 7800 GS 20Pipes AGP,G70,"Feb 2nd, 2006",AGP 8x,"512 MB, GDDR3, 256 bit",425 MHz,625 MHz,20 / 7 / 20 / 16,
+GeForce 7800 GS 24Pipes AGP,G70,"Feb 2nd, 2006",AGP 8x,"512 MB, GDDR3, 256 bit",425 MHz,625 MHz,24 / 8 / 24 / 16,
+GeForce 7800 GS+ AGP,G71,"Sep 28th, 2006",AGP 8x,"256 MB, GDDR3, 256 bit",375 MHz,600 MHz,16 / 6 / 16 / 8,
+GeForce 7800 GS+ 20Pipes AGP,G71,"Sep 28th, 2006",AGP 8x,"512 MB, GDDR3, 256 bit",425 MHz,625 MHz,20 / 7 / 20 / 16,
+GeForce 7800 GS+ 24Pipes AGP,G71,"Sep 28th, 2006",AGP 8x,"512 MB, GDDR3, 256 bit",425 MHz,625 MHz,24 / 8 / 24 / 16,
+GeForce 7900 GS AGP,G71,"Apr 2nd, 2006",AGP 8x,"256 MB, GDDR3, 256 bit",450 MHz,660 MHz,20 / 7 / 20 / 16,
+GeForce 7100 GS,NV44B,"Aug 8th, 2006",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",350 MHz,266 MHz,4 / 3 / 4 / 2,
+GeForce 7200 GS,G72,"Jan 18th, 2006",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",450 MHz,334 MHz,2 / 2 / 4 / 2,
+GeForce 7300 SE,G72,"Mar 22nd, 2006",PCIe 1.0 x16,"256 MB, DDR2, 64 bit",450 MHz,266 MHz,4 / 3 / 4 / 2,
+GeForce 7300 GS,G72,"Jan 18th, 2006",PCIe 1.0 x16,"256 MB, DDR2, 64 bit",450 MHz,266 MHz,4 / 3 / 4 / 2,
+GeForce 7300 GS Low Profile,G72,"Jan 18th, 2006",PCIe 1.0 x16,"256 MB, DDR2, 64 bit",450 MHz,266 MHz,4 / 3 / 4 / 2,
+GeForce 7300 LE,G72,"Mar 22nd, 2006",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",450 MHz,324 MHz,4 / 3 / 4 / 2,
+GeForce 7300 GT,G73,"May 15th, 2006",PCIe 1.0 x16,"128 MB, DDR2, 128 bit",350 MHz,325 MHz,8 / 4 / 8 / 8,
+GeForce 7300 GT,G73B,"May 15th, 2006",PCIe 1.0 x16,"128 MB, DDR2, 128 bit",350 MHz,325 MHz,8 / 4 / 8 / 8,
+GeForce 7300 GT Mac Edition,G73,"Aug 26th, 2006",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",350 MHz,500 MHz,8 / 4 / 8 / 8,
+GeForce 7350 LE,G72,"Mar 22nd, 2006",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",450 MHz,400 MHz,4 / 3 / 4 / 2,
+GeForce 7500 LE,G72,"Mar 22nd, 2006",PCIe 1.0 x16,"64 MB, DDR2, 64 bit",475 MHz,405 MHz,8 / 5 / 8 / 4,
+GeForce 7600 LE,G73B,"Mar 22nd, 2006",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",400 MHz,400 MHz,8 / 4 / 8 / 8,
+GeForce 7600 GS,G73B,"Mar 22nd, 2006",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",400 MHz,400 MHz,12 / 5 / 12 / 8,
+GeForce 7600 GT Mac Edition,G73,"Sep 2nd, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",560 MHz,700 MHz,12 / 5 / 12 / 8,
+GeForce 7600 GT Mac Edition,G73B,"Sep 2nd, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",560 MHz,700 MHz,12 / 5 / 12 / 8,
+GeForce 7600 GT,G73B,"Mar 9th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",560 MHz,700 MHz,12 / 5 / 12 / 8,199
+GeForce 7650 GS,G73B,"Mar 22nd, 2006",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",450 MHz,400 MHz,12 / 5 / 12 / 8,
+GeForce 7900 GS,G71,"May 1st, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",450 MHz,660 MHz,20 / 7 / 20 / 16,259
+GeForce 7900 GT,G71,"Mar 9th, 2006",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",450 MHz,660 MHz,24 / 8 / 24 / 16,
+GeForce 7900 GTO,G71,"Oct 1st, 2006",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",650 MHz,660 MHz,24 / 8 / 24 / 16,
+GeForce 7900 GTX,G71,"Mar 9th, 2006",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",650 MHz,800 MHz,24 / 8 / 24 / 16,
+GeForce 7900 GX2,G71,"Apr 30th, 2006",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",500 MHz,600 MHz,24 / 8 / 24 / 16,599
+GeForce 7950 GT,G71,"Aug 6th, 2006",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",550 MHz,700 MHz,24 / 8 / 24 / 16,
+GeForce 7950 GX2,G71,"Jun 5th, 2006",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",500 MHz,600 MHz,24 / 8 / 24 / 16,599
+GeForce 8800 GTS 640,G80,"Nov 8th, 2006",PCIe 1.0 x16,"640 MB, GDDR3, 320 bit",513 MHz,792 MHz,96 / 24 / 20,449
+GeForce 8800 GTX,G80,"Nov 8th, 2006",PCIe 1.0 x16,"768 MB, GDDR3, 384 bit",576 MHz,900 MHz,128 / 32 / 24,599
+Playstation 3 GPU 90nm,RSX-90nm,"Nov 11th, 2006",IGP,"256 MB, GDDR3, 128 bit",550 MHz,650 MHz,24 / 8 / 24 / 8,
+Radeon X550 XT,RV410,"Jan 24th, 2007",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",400 MHz,300 MHz,4 / 6 / 4 / 4,
+Radeon X550 XTX,RV410,"Jan 24th, 2007",PCIe 1.0 x16,"128 MB, DDR, 64 bit",400 MHz,300 MHz,8 / 6 / 8 / 8,
+Radeon X800 GT AGP,R420,"Nov 8th, 2007",AGP 8x,"256 MB, GDDR3, 256 bit",473 MHz,493 MHz,8 / 6 / 8 / 8,
+Radeon X800 GTO AGP,R420,"Nov 8th, 2007",AGP 8x,"256 MB, GDDR3, 256 bit",400 MHz,490 MHz,12 / 6 / 12 / 12,
+Radeon X800 GTO,R423,"Dec 29th, 2007",PCIe 1.0 x16,"128 MB, DDR, 256 bit",400 MHz,350 MHz,12 / 6 / 12 / 12,
+Radeon X1050 AGP,RV360,"Nov 25th, 2007",AGP 8x,"128 MB, DDR, 128 bit",250 MHz,203 MHz,4 / 2 / 4 / 4,
+Radeon X1550 AGP,RV505,2007,AGP 8x,"256 MB, DDR2, 64 bit",600 MHz,330 MHz,4 / 2 / 4 / 4,
+Radeon X1550 PCI,RV516,2007,PCI,"256 MB, DDR2, 64 bit",452 MHz,266 MHz,4 / 2 / 4 / 4,
+Radeon X1550,RV505,2007,PCIe 1.0 x16,"128 MB, DDR2, 64 bit",500 MHz,333 MHz,4 / 2 / 4 / 4,
+Radeon X1550,RV516,2007,PCIe 1.0 x16,"256 MB, DDR2, 128 bit",550 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1550,RV515,2007,PCIe 1.0 x16,"256 MB, DDR2, 128 bit",600 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1600 PRO AGP,RV530,"Oct 1st, 2007",AGP 8x,"256 MB, GDDR3, 128 bit",500 MHz,390 MHz,12 / 5 / 4 / 4,
+Radeon X1600 SE,RV515,2007,PCIe 1.0 x16,"256 MB, DDR, 128 bit",635 MHz,250 MHz,4 / 2 / 4 / 4,
+Radeon X1600,RV516,2007,PCIe 1.0 x16,"512 MB, DDR2, 128 bit",635 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1600 XT Dual,RV530,Never Released,PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",590 MHz,690 MHz,12 / 5 / 4 / 4,
+Radeon X1650 AGP,RV530,"Feb 1st, 2007",AGP 8x,"256 MB, DDR2, 128 bit",500 MHz,400 MHz,12 / 5 / 4 / 4,
+Radeon X1650,RV516,"Nov 20th, 2007",PCIe 1.0 x16,"256 MB, DDR2, 64 bit",635 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1650 SE,RV516,2007,PCIe 1.0 x16,"512 MB, DDR2, 128 bit",635 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1650 SE,RV515,2007,PCIe 1.0 x16,"512 MB, DDR2, 128 bit",635 MHz,400 MHz,4 / 2 / 4 / 4,
+Radeon X1650,RV530,"Feb 1st, 2007",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",500 MHz,400 MHz,12 / 5 / 4 / 4,
+Radeon X1650 PRO,RV530,"Feb 1st, 2007",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",600 MHz,700 MHz,12 / 5 / 4 / 4,
+Radeon X1650 GTO,RV530,"Dec 2nd, 2007",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",587 MHz,392 MHz,12 / 5 / 4 / 4,
+Radeon X1650 GT,RV560,"May 1st, 2007",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",400 MHz,400 MHz,24 / 8 / 8 / 8,
+Radeon X1700 FSC,RV535,"Nov 5th, 2007",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",587 MHz,695 MHz,12 / 5 / 4 / 4,
+Radeon X1700 SE,RV560,"Nov 30th, 2007",PCIe 1.0 x16,"512 MB, DDR2, 128 bit",500 MHz,500 MHz,24 / 8 / 8 / 8,
+Radeon X1950 GT AGP,RV570,"Feb 10th, 2007",AGP 8x,"256 MB, GDDR3, 256 bit",500 MHz,600 MHz,36 / 8 / 12 / 12,
+Radeon X1950 GT,RV570,"Jan 29th, 2007",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",500 MHz,600 MHz,36 / 8 / 12 / 12,140
+Radeon X1950 PRO DUAL,RV570,"Jan 10th, 2007",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",575 MHz,690 MHz,36 / 8 / 12 / 12,349
+Radeon X1950 XTX Uber Edition,R580+,"Jan 19th, 2007",PCIe 1.0 x16,"512 MB, GDDR4, 256 bit",670 MHz,1050 MHz,48 / 8 / 16 / 16,788
+Radeon HD 2350 PRO,RV610,2007,PCIe 1.0 x16,"256 MB, DDR2, 64 bit",525 MHz,400 MHz,40 / 4 / 4,
+Radeon HD 2400 PRO PCI,RV610,"Jun 28th, 2007",PCI,"512 MB, DDR2, 64 bit",525 MHz,400 MHz,40 / 4 / 4,
+Radeon HD 2400 PRO AGP,RV610,"Jun 28th, 2007",AGP 8x,"256 MB, DDR2, 64 bit",525 MHz,400 MHz,40 / 4 / 4,
+Radeon HD 2400 PRO,RV610,"Jun 28th, 2007",PCIe 1.0 x16,"256 MB, DDR2, 64 bit",525 MHz,400 MHz,40 / 4 / 4,
+Radeon HD 2400 XT,RV610,"Jun 28th, 2007",PCIe 1.0 x16,"256 MB, GDDR3, 64 bit",650 MHz,500 MHz,40 / 4 / 4,
+Radeon HD 2600 PRO AGP,RV630,"Jun 28th, 2007",AGP 8x,"512 MB, DDR2, 128 bit",594 MHz,396 MHz,120 / 8 / 4,
+Radeon HD 2600 PRO,RV630,"Jun 28th, 2007",PCIe 1.0 x16,"256 MB, DDR2, 128 bit",600 MHz,500 MHz,120 / 8 / 4,
+Radeon HD 2600 XT AGP,RV635,"Jun 28th, 2007",AGP 8x,"256 MB, DDR2, 128 bit",722 MHz,405 MHz,120 / 8 / 4,
+Radeon HD 2600 XT AGP,RV630,"Jun 28th, 2007",AGP 8x,"256 MB, GDDR3, 128 bit",800 MHz,800 MHz,120 / 8 / 4,
+Radeon HD 2600 XT,RV630,"Jun 28th, 2007",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",800 MHz,700 MHz,120 / 8 / 4,199
+Radeon HD 2600 XT,RV630,"Jun 28th, 2007",PCIe 1.0 x16,"256 MB, GDDR4, 128 bit",800 MHz,1100 MHz,120 / 8 / 4,199
+Radeon HD 2600 XT X2,RV630,"Jul 26th, 2007",PCIe 1.0 x16,"512 MB, GDDR3, 128 bit",800 MHz,800 MHz,120 / 8 / 4,
+Radeon HD 2900 GT,R600,"Nov 6th, 2007",PCIe 1.0 x16,"256 MB, GDDR3, 256 bit",601 MHz,800 MHz,240 / 12 / 12,
+Radeon HD 2900 PRO,R600,"Dec 12th, 2007",PCIe 1.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,800 MHz,320 / 16 / 16,
+Radeon HD 2900 XT,R600,"May 14th, 2007",PCIe 1.0 x16,"512 MB, GDDR3, 512 bit",743 MHz,828 MHz,320 / 16 / 16,399
+Radeon HD 2900 XTX,R600,Never Released,PCIe 1.0 x16,"512 MB, GDDR3, 512 bit",743 MHz,828 MHz,320 / 16 / 16,
+Radeon HD 2950 PRO,RV670,Never Released,PCIe 2.0 x16,"256 MB, GDDR3, 256 bit",600 MHz,600 MHz,320 / 16 / 16,
+Radeon HD 2950 XTX,RV670,Never Released,PCIe 2.0 x16,"512 MB, GDDR4, 256 bit",777 MHz,1126 MHz,320 / 16 / 16,
+Radeon HD 3450,RV620,"Dec 10th, 2007",PCIe 2.0 x16,"256 MB, DDR2, 64 bit",600 MHz,500 MHz,40 / 4 / 4,
+Radeon HD 3450 X2,RV620,"Dec 10th, 2007",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",600 MHz,500 MHz,40 / 4 / 4,
+Radeon HD 3850,RV670,"Nov 19th, 2007",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",668 MHz,830 MHz,320 / 16 / 16,179
+Radeon HD 3870 AGP,RV670,Never Released,AGP 8x,"512 MB, GDDR4, 256 bit",777 MHz,1126 MHz,320 / 16 / 16,
+Radeon HD 3870,RV670,"Nov 19th, 2007",PCIe 2.0 x16,"512 MB, GDDR4, 256 bit",777 MHz,1126 MHz,320 / 16 / 16,269
+Xbox 360 GPU 80nm,Xenos Falcon,"Oct 27th, 2007",IGP,"512 MB, GDDR3, 128 bit",500 MHz,700 MHz,240 / 16 / 8,
+GeForce 7600 GT AGP,G73B,"Jan 8th, 2007",AGP 8x,"256 MB, GDDR3, 128 bit",560 MHz,700 MHz,12 / 5 / 12 / 8,
+GeForce 7950 GT AGP,G71,"Apr 2nd, 2007",AGP 8x,"512 MB, GDDR3, 256 bit",500 MHz,600 MHz,24 / 8 / 24 / 16,
+GeForce 8300 GS,G86S,"Apr 17th, 2007",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",459 MHz,400 MHz,8/8/2004,
+GeForce 8400 GS PCI,G98S,"Dec 4th, 2007",PCI,"512 MB, DDR2, 64 bit",567 MHz,333 MHz,8/4/2004,
+GeForce 8400 GS PCI Rev. 2,GT218S,"Apr 17th, 2007",PCI,"512 MB, DDR3, 64 bit",520 MHz,500 MHz,16 / 8 / 4,
+GeForce 8400,G98S,"Dec 4th, 2007",PCIe 2.0 x16,"256 MB, DDR2, 64 bit",540 MHz,500 MHz,8/4/2004,
+GeForce 8400 GS Rev. 2,G98S,"Dec 4th, 2007",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",567 MHz,400 MHz,8/4/2004,
+GeForce 8400 GS,G86S,"Apr 17th, 2007",PCIe 1.0 x16,"256 MB, DDR2, 64 bit",459 MHz,400 MHz,16 / 8 / 4,
+GeForce 8500 GT,G86,"Apr 17th, 2007",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",459 MHz,400 MHz,16 / 8 / 4,129
+GeForce 8600 GS,G84,"Apr 17th, 2007",PCIe 1.0 x16,"512 MB, DDR2, 128 bit",540 MHz,400 MHz,16 / 8 / 8,
+GeForce 8600 GT,G84,"Apr 17th, 2007",PCIe 1.0 x16,"512 MB, GDDR3, 128 bit",540 MHz,700 MHz,32 / 16 / 8,159
+GeForce 8600 GT Mac Edition,G84,"Apr 17th, 2007",PCIe 1.0 x16,"128 MB, GDDR3, 128 bit",600 MHz,750 MHz,32 / 16 / 8,
+GeForce 8600 GTS,G84,"Apr 17th, 2007",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",675 MHz,1000 MHz,32 / 16 / 8,199
+GeForce 8600 GTS Mac Edition,G84,"Sep 21st, 2007",PCIe 1.0 x16,"512 MB, GDDR3, 128 bit",675 MHz,1008 MHz,32 / 16 / 8,
+GeForce 8800 GT,G92,"Oct 29th, 2007",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,900 MHz,112 / 56 / 16,349
+GeForce 8800 GTS 320,G80,"Feb 12th, 2007",PCIe 1.0 x16,"320 MB, GDDR3, 320 bit",513 MHz,792 MHz,96 / 24 / 20,269
+GeForce 8800 GTS 512,G92,"Dec 11th, 2007",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",650 MHz,820 MHz,128 / 64 / 16,349
+GeForce 8800 GTS Core 112,G80,"Nov 19th, 2007",PCIe 1.0 x16,"640 MB, GDDR3, 320 bit",500 MHz,800 MHz,112 / 28 / 20,
+GeForce 8800 Ultra,G80,"May 2nd, 2007",PCIe 1.0 x16,"768 MB, GDDR3, 384 bit",612 MHz,1080 MHz,128 / 32 / 24,829
+Playstation Portable GPU 65nm,RE+SE-65nm,"Aug 30th, 2007",IGP,"2 MB, eDRAM, 512 bit",133 MHz,83 MHz,2 / 1 / 5 / 5,
+Playstation 2 GPU 65nm,EE+GS-65nm,"Jul 1st, 2007",IGP,"4 MB, eDRAM, 2560 bit",147 MHz,150 MHz,16 / 2 / 8 / 16,
+Radeon X1050,RV410,"Jan 25th, 2008",PCIe 1.0 x16,"128 MB, DDR, 64 bit",400 MHz,200 MHz,8 / 6 / 8 / 8,
+Radeon HD 2400,RV610,"Feb 19th, 2008",PCIe 1.0 x16,"256 MB, DDR2, 64 bit",398 MHz,495 MHz,40 / 4 / 4,
+Radeon HD 2600 XT Mac Edition,RV630,"Feb 21st, 2008",PCIe 1.0 x16,"256 MB, GDDR3, 128 bit",700 MHz,800 MHz,120 / 8 / 4,
+Radeon HD 3450 PCI,RV620,"Jan 23rd, 2008",PCI,"512 MB, DDR2, 64 bit",600 MHz,400 MHz,40 / 4 / 4,
+Radeon HD 3450 AGP,RV620,"Jan 23rd, 2008",AGP 8x,"512 MB, DDR2, 64 bit",600 MHz,500 MHz,40 / 4 / 4,
+Radeon HD 3470,RV620,"Jan 23rd, 2008",PCIe 2.0 x16,"256 MB, GDDR3, 64 bit",800 MHz,950 MHz,40 / 4 / 4,
+Radeon HD 3550,RV620,"Aug 4th, 2008",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",594 MHz,396 MHz,40 / 4 / 4,
+Radeon HD 3650 AGP,RV635,"Jan 23rd, 2008",AGP 8x,"512 MB, DDR2, 128 bit",725 MHz,500 MHz,120 / 8 / 4,
+Radeon HD 3650,RV635,"Jan 20th, 2008",PCIe 2.0 x16,"256 MB, GDDR3, 128 bit",725 MHz,800 MHz,120 / 8 / 4,
+Radeon HD 3690,RV670,"Mar 30th, 2008",PCIe 2.0 x16,"256 MB, GDDR3, 128 bit",670 MHz,830 MHz,320 / 16 / 16,
+Radeon HD 3730,RV635,"Oct 5th, 2008",PCIe 2.0 x16,"512 MB, DDR2, 128 bit",722 MHz,396 MHz,120 / 8 / 4,
+Radeon HD 3750,RV635,"Sep 11th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",796 MHz,693 MHz,120 / 8 / 4,
+Radeon HD 3830,RV670,"Apr 1st, 2008",PCIe 2.0 x16,"256 MB, GDDR3, 128 bit",668 MHz,828 MHz,320 / 16 / 16,
+Radeon HD 3850 AGP,RV670,"Jan 3rd, 2008",AGP 8x,"512 MB, GDDR3, 256 bit",668 MHz,828 MHz,320 / 16 / 16,
+Radeon HD 3850 X2,RV670,"Apr 4th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",669 MHz,828 MHz,320 / 16 / 16,349
+Radeon HD 3850 X3,RV670,Never Released,PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",669 MHz,850 MHz,320 / 16 / 16,
+Radeon HD 3870 Mac Edition,RV670,"Jun 12th, 2008",PCIe 2.0 x16,"512 MB, GDDR4, 256 bit",777 MHz,1126 MHz,320 / 16 / 16,
+Radeon HD 3870 X2,R680,"Jan 26th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",825 MHz,901 MHz,320 / 16 / 16,449
+Radeon HD 4350 PCI,RV710,"Sep 30th, 2008",PCI,"512 MB, DDR2, 64 bit",600 MHz,400 MHz,80 / 8 / 4,
+Radeon HD 4350 AGP,RV710,"Sep 30th, 2008",AGP 8x,"512 MB, DDR3, 64 bit",600 MHz,650 MHz,80 / 8 / 4,
+Radeon HD 4350 PCIe x1,RV710,"Sep 30th, 2008",PCIe 2.0 x1,"512 MB, DDR2, 64 bit",600 MHz,400 MHz,80 / 8 / 4,
+Radeon HD 4350,RV710,"Sep 30th, 2008",PCIe 2.0 x16,"512 MB, DDR3, 64 bit",600 MHz,400 MHz,80 / 8 / 4,
+Radeon HD 4550,RV710,"Sep 30th, 2008",PCIe 2.0 x16,"256 MB, DDR2, 64 bit",600 MHz,655 MHz,80 / 8 / 4,59
+Radeon HD 4570,RV710,"Nov 25th, 2008",PCIe 2.0 x16,"1024 MB, DDR2, 64 bit",650 MHz,500 MHz,80 / 8 / 4,
+Radeon HD 4650 AGP,RV730,"Sep 10th, 2008",AGP 8x,"512 MB, DDR2, 128 bit",600 MHz,400 MHz,320 / 32 / 8,
+Radeon HD 4650,RV730,"Sep 10th, 2008",PCIe 2.0 x16,"256 MB, GDDR3, 128 bit",600 MHz,700 MHz,320 / 32 / 8,
+Radeon HD 4670,RV730,"Sep 10th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",750 MHz,1000 MHz,320 / 32 / 8,67
+Radeon HD 4670 X2,RV730,"Sep 10th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",750 MHz,700 MHz,320 / 32 / 8,
+Radeon HD 4710,RV730,"Sep 10th, 2008",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",750 MHz,800 MHz,320 / 32 / 8,
+Radeon HD 4730 OEM,RV670,"Dec 26th, 2008",PCIe 2.0 x16,"1024 MB, DDR2, 256 bit",669 MHz,396 MHz,320 / 16 / 16,
+Radeon HD 4830,RV770,"Oct 21st, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",575 MHz,900 MHz,640 / 32 / 16,130
+Radeon HD 4850,RV770,"Jun 25th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",625 MHz,993 MHz,800 / 40 / 16,199
+Radeon HD 4870,RV770,"Jun 25th, 2008",PCIe 2.0 x16,"512 MB, GDDR5, 256 bit",750 MHz,900 MHz,800 / 40 / 16,299
+Radeon HD 4850 X2,R700,"Nov 7th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",625 MHz,995 MHz,800 / 40 / 16,420
+Radeon HD 4870 X2,R700,"Aug 12th, 2008",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",750 MHz,900 MHz,800 / 40 / 16,550
+All-In-Wonder HD 3650,RV635,"Jun 28th, 2008",PCIe 2.0 x16,"512 MB, DDR2, 128 bit",725 MHz,600 MHz,120 / 8 / 4,
+Xbox 360 GPU 65nm,Xenos Jasper,"Aug 1st, 2008",IGP,"512 MB, GDDR3, 128 bit",500 MHz,700 MHz,240 / 16 / 8,
+GeForce 6200 PCI,NV44,"Jan 16th, 2008",PCI,"256 MB, DDR2, 64 bit",280 MHz,200 MHz,4 / 3 / 4 / 2,
+GeForce 6200 X2 PCI,NV44,"Jan 16th, 2008",PCI,"256 MB, DDR2, 64 bit",280 MHz,200 MHz,4 / 3 / 4 / 2,
+GeForce 8400 SE,G86S,"Aug 1st, 2008",PCIe 1.0 x16,"128 MB, DDR2, 64 bit",459 MHz,400 MHz,16 / 8 / 4,
+GeForce 8800 GS,G92,"Jan 31st, 2008",PCIe 2.0 x16,"384 MB, GDDR3, 192 bit",550 MHz,800 MHz,96 / 48 / 12,
+GeForce 8800 GT Mac Edition,G92,"Feb 1st, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,900 MHz,112 / 56 / 16,
+GeForce 9300 GE,G98S,"Jun 1st, 2008",PCIe 2.0 x16,"256 MB, DDR2, 64 bit",540 MHz,400 MHz,8/4/2004,
+GeForce 9300 SE,G98S,"Jun 1st, 2008",PCIe 2.0 x16,"256 MB, DDR2, 64 bit",540 MHz,400 MHz,8/4/2004,
+GeForce 9300 GS,G98S,"Jun 1st, 2008",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",567 MHz,333 MHz,8/4/2004,
+GeForce 9400 GT PCI,G96C,"Aug 27th, 2008",PCI,"256 MB, DDR2, 128 bit",550 MHz,400 MHz,16 / 8 / 4,
+GeForce 9400 GT,G96C,"Aug 27th, 2008",PCIe 2.0 x16,"512 MB, DDR2, 128 bit",550 MHz,400 MHz,16 / 8 / 4,
+GeForce 9400 GT,G86S,"Aug 1st, 2008",PCIe 2.0 x16,"128 MB, DDR2, 64 bit",459 MHz,600 MHz,16 / 8 / 4,
+GeForce 9400 GT Rev. 2,G96C,"Aug 27th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",550 MHz,400 MHz,16 / 8 / 4,
+GeForce 9500 GS,G96,"Jul 29th, 2008",PCIe 2.0 x16,"512 MB, DDR2, 128 bit",550 MHz,504 MHz,32 / 16 / 8,
+GeForce 9500 GS Rev. 2,G96C,"Jul 29th, 2008",PCIe 2.0 x16,"512 MB, DDR2, 128 bit",500 MHz,500 MHz,32 / 16 / 8,
+GeForce 9500 GT,G96,"Jul 29th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",600 MHz,1000 MHz,32 / 16 / 8,
+GeForce 9500 GT Rev. 2,G96B,"Jul 29th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",600 MHz,900 MHz,32 / 16 / 8,
+GeForce 9500 GT Rev. 3,G96C,"Jul 29th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",550 MHz,800 MHz,32 / 16 / 8,
+GeForce 9600 GS OEM,G94,"Jul 29th, 2008",PCIe 2.0 x16,"768 MB, DDR2, 192 bit",500 MHz,1000 MHz,48 / 24 / 12,
+GeForce 9600 GSO 512,G94,"Oct 23rd, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",650 MHz,900 MHz,48 / 24 / 16,
+GeForce 9600 GT Green Edition,G94,"Feb 21st, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,700 MHz,64 / 32 / 16,179
+GeForce 9600 GT,G94,"Feb 21st, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",650 MHz,900 MHz,64 / 32 / 16,179
+GeForce 9600 GT Rev. 2,G94B,"Feb 21st, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",650 MHz,900 MHz,64 / 32 / 16,179
+GeForce 9600 GT Mac Edition,G94,"Dec 22nd, 2008",PCIe 2.0 x16,"1024 MB, DDR2, 256 bit",600 MHz,266 MHz,64 / 32 / 16,
+GeForce 9600 GSO,G92,"Apr 28th, 2008",PCIe 2.0 x16,"384 MB, GDDR3, 192 bit",550 MHz,800 MHz,96 / 48 / 12,
+GeForce 9800 GT,G92B,"Jul 21st, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,900 MHz,112 / 56 / 16,160
+GeForce 9800 GT,G92,"Jul 21st, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,900 MHz,112 / 56 / 16,160
+GeForce 9800 GT Rebrand,G92,"Jul 21st, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",725 MHz,1000 MHz,128 / 64 / 16,160
+GeForce 9800 GTX+,G92,"Mar 28th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",675 MHz,1100 MHz,128 / 64 / 16,229
+GeForce 9800 GX2,G92,"Mar 18th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",600 MHz,1000 MHz,128 / 64 / 16,599
+GeForce GT 130 Mac Edition,G94B,"Dec 12th, 2008",PCIe 2.0 x16,"512 MB, GDDR3, 192 bit",600 MHz,792 MHz,48 / 24 / 12,
+GeForce GTX 260,GT200,"Jun 16th, 2008",PCIe 2.0 x16,"896 MB, GDDR3, 448 bit",576 MHz,999 MHz,192 / 64 / 28,449
+GeForce GTX 260 Rev. 2,GT200B,"Jul 23rd, 2008",PCIe 2.0 x16,"896 MB, GDDR3, 448 bit",576 MHz,999 MHz,192 / 64 / 28,449
+GeForce GTX 260 Core 216,GT200,"Sep 16th, 2008",PCIe 2.0 x16,"896 MB, GDDR3, 448 bit",576 MHz,999 MHz,216 / 72 / 28,299
+GeForce GTX 260 Core 216 Rev. 2,GT200B,"Nov 27th, 2008",PCIe 2.0 x16,"896 MB, GDDR3, 448 bit",576 MHz,999 MHz,216 / 72 / 28,299
+GeForce GTX 280,GT200,"Jun 16th, 2008",PCIe 2.0 x16,"1024 MB, GDDR3, 512 bit",602 MHz,1107 MHz,240 / 80 / 32,649
+GeForce GTX 285,GT200B,"Dec 23rd, 2008",PCIe 2.0 x16,"1024 MB, GDDR3, 512 bit",648 MHz,1242 MHz,240 / 80 / 32,359
+Playstation 3 GPU 65nm,RSX-65nm,Aug-08,IGP,"256 MB, GDDR3, 128 bit",550 MHz,650 MHz,24 / 8 / 24 / 8,
+Radeon HD 3410,RV610,"May 7th, 2009",PCIe 1.0 x16,"256 MB, DDR2, 64 bit",519 MHz,396 MHz,40 / 4 / 4,
+Radeon HD 3610,RV630,"Sep 24th, 2009",PCIe 1.0 x16,"512 MB, DDR2, 128 bit",594 MHz,396 MHz,120 / 8 / 4,
+Radeon HD 4250,RV620,"Feb 25th, 2009",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",594 MHz,396 MHz,40 / 4 / 4,
+Radeon HD 4520,RV710,"Dec 2nd, 2009",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",600 MHz,400 MHz,80 / 8 / 4,
+Radeon HD 4570 Rebrand,RV635,"Nov 22nd, 2009",PCIe 2.0 x16,"1024 MB, DDR2, 128 bit",796 MHz,396 MHz,120 / 8 / 4,
+Radeon HD 4670 AGP,RV730,"Jul 17th, 2009",AGP 8x,"1024 MB, GDDR3, 128 bit",750 MHz,800 MHz,320 / 32 / 8,
+Radeon HD 4730,RV770,"Jun 8th, 2009",PCIe 2.0 x16,"512 MB, GDDR5, 128 bit",750 MHz,900 MHz,640 / 32 / 8,79
+Radeon HD 4750,RV740,"Sep 9th, 2009",PCIe 2.0 x16,"512 MB, GDDR5, 128 bit",730 MHz,800 MHz,640 / 32 / 16,
+Radeon HD 4770,RV740,"Apr 28th, 2009",PCIe 2.0 x16,"512 MB, GDDR5, 128 bit",750 MHz,800 MHz,640 / 32 / 16,109
+Radeon HD 4810,RV770,"May 28th, 2009",PCIe 2.0 x16,"512 MB, GDDR5, 128 bit",625 MHz,900 MHz,640 / 32 / 8,
+Radeon HD 4860,RV790,"Sep 9th, 2009",PCIe 2.0 x16,"512 MB, GDDR5, 256 bit",700 MHz,750 MHz,640 / 32 / 16,
+Radeon HD 4870 Mac Edition,RV770,"Jan 6th, 2009",PCIe 2.0 x16,"512 MB, GDDR5, 256 bit",750 MHz,850 MHz,800 / 40 / 16,
+Radeon HD 4890,RV790,"Apr 2nd, 2009",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",850 MHz,975 MHz,800 / 40 / 16,249
+Radeon HD 5750,Juniper,"Oct 13th, 2009",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",700 MHz,1150 MHz,720 / 36 / 16,
+Radeon HD 5770,Juniper,"Oct 13th, 2009",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",850 MHz,1200 MHz,800 / 40 / 16,159
+Radeon HD 5850,Cypress,"Sep 30th, 2009",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",725 MHz,1000 MHz,1440 / 72 / 32,
+Radeon HD 5870,Cypress,"Sep 23rd, 2009",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",850 MHz,1200 MHz,1600 / 80 / 32,399
+Radeon HD 5950,Hemlock,Never Released,PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",725 MHz,1000 MHz,1440 / 72 / 32,
+Radeon HD 5970,Hemlock,"Nov 18th, 2009",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",725 MHz,1000 MHz,1600 / 80 / 32,699
+GeForce 9600 GTX,G92,"May 27th, 2009",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",580 MHz,700 MHz,96 / 48 / 16,
+GeForce 9800 GTX+,G92B,"Jan 16th, 2009",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",738 MHz,1100 MHz,128 / 64 / 16,229
+GeForce G100 OEM,G98S,"Mar 10th, 2009",PCIe 2.0 x16,"256 MB, DDR2, 64 bit",540 MHz,400 MHz,8/4/2004,
+GeForce GT 120 OEM,G96C,"Mar 10th, 2009",PCIe 2.0 x16,"512 MB, DDR2, 128 bit",738 MHz,504 MHz,32 / 16 / 8,
+GeForce GT 120 Mac Edition,G96C,"Jan 20th, 2009",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",550 MHz,800 MHz,32 / 16 / 8,
+GeForce GT 130 OEM,G94B,"Mar 10th, 2009",PCIe 2.0 x16,"512 MB, DDR2, 192 bit",500 MHz,500 MHz,48 / 24 / 12,
+GeForce GT 140 OEM,G94B,"Mar 10th, 2009",PCIe 2.0 x16,"1024 MB, GDDR3, 256 bit",650 MHz,900 MHz,64 / 32 / 16,
+GeForce GTS 150 OEM,G92,"Mar 10th, 2009",PCIe 2.0 x16,"1024 MB, GDDR3, 256 bit",738 MHz,1000 MHz,128 / 64 / 16,
+GeForce 205 OEM,GT218S,"Nov 26th, 2009",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",589 MHz,400 MHz,16 / 8 / 4,
+GeForce 210 PCI,GT216,"Oct 12th, 2009",PCI,"512 MB, DDR2, 64 bit",475 MHz,400 MHz,16 / 8 / 4,
+GeForce 210 OEM,GT216,"Sep 4th, 2009",PCIe 2.0 x16,"1024 MB, DDR2, 64 bit",475 MHz,400 MHz,16 / 8 / 4,
+GeForce 210,GT218S,"Oct 12th, 2009",PCIe 2.0 x16,"512 MB, DDR3, 64 bit",520 MHz,400 MHz,16 / 8 / 4,
+GeForce 210 Rev. 2,GT218S,"Oct 12th, 2009",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",520 MHz,400 MHz,16 / 8 / 4,
+GeForce G210 OEM,G96C,"May 26th, 2009",PCIe 1.0 x16,"512 MB, DDR2, 64 bit",550 MHz,504 MHz,16 / 8 / 4,
+GeForce G210 OEM Rev. 2,GT218S,"Aug 24th, 2009",PCIe 2.0 x16,"128 MB, DDR2, 64 bit",589 MHz,400 MHz,16 / 8 / 4,
+GeForce GT 220 OEM,GT215,"Oct 12th, 2009",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",506 MHz,700 MHz,48 / 16 / 8,
+GeForce GT 220,GT216,"Oct 12th, 2009",PCIe 2.0 x16,"512 MB, DDR2, 128 bit",615 MHz,1000 MHz,48 / 16 / 8,
+GeForce GT 230 OEM,G92B,"Apr 27th, 2009",PCIe 2.0 x16,"1536 MB, DDR2, 192 bit",500 MHz,500 MHz,96 / 48 / 12,
+GeForce GT 230,G94B,"Oct 12th, 2009",PCIe 2.0 x16,"512 MB, GDDR3, 256 bit",650 MHz,900 MHz,48 / 24 / 16,
+GeForce GTS 240 OEM,G92B,"Jul 1st, 2009",PCIe 2.0 x16,"1024 MB, GDDR3, 256 bit",675 MHz,1100 MHz,112 / 56 / 16,
+GeForce GT 240,GT215,"Nov 17th, 2009",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",550 MHz,850 MHz,96 / 32 / 8,80
+GeForce GTS 250,G92B,"Mar 4th, 2009",PCIe 2.0 x16,"1024 MB, GDDR3, 256 bit",675 MHz,1008 MHz,128 / 64 / 16,199
+GeForce GTS 250,G92B,"Mar 4th, 2009",PCIe 2.0 x16,"1024 MB, GDDR3, 256 bit",702 MHz,1000 MHz,128 / 64 / 16,199
+GeForce GTX 260 OEM,GT200,"Dec 8th, 2009",PCIe 2.0 x16,"1792 MB, GDDR3, 448 bit",518 MHz,1008 MHz,192 / 64 / 28,
+GeForce GTX 275,GT200B,"Jan 15th, 2009",PCIe 2.0 x16,"896 MB, GDDR3, 448 bit",633 MHz,1134 MHz,240 / 80 / 28,249
+GeForce GTX 285 Mac Edition,GT200B,"Jan 15th, 2009",PCIe 2.0 x16,"1024 MB, GDDR3, 512 bit",648 MHz,1242 MHz,240 / 80 / 32,
+GeForce GTX 285 X2,GT200B,"Jun 17th, 2009",PCIe 2.0 x16,"2 GB, GDDR3, 512 bit",648 MHz,1152 MHz,240 / 80 / 32,
+GeForce GTX 295,GT200B,"Jan 8th, 2009",PCIe 2.0 x16,"896 MB, GDDR3, 448 bit",576 MHz,999 MHz,240 / 80 / 28,499
+GeForce GTX 295 Single PCB,GT200B,"Jun 16th, 2009",PCIe 2.0 x16,"896 MB, GDDR3, 448 bit",576 MHz,1008 MHz,240 / 80 / 28,499
+GeForce 310 OEM,GT218S,"Nov 27th, 2009",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",589 MHz,333 MHz,16 / 8 / 4,
+Radeon HD 6850,Barts,"Oct 21st, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",775 MHz,1000 MHz,960 / 48 / 32,179
+Radeon HD 6870,Barts,"Oct 21st, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",900 MHz,1050 MHz,1120 / 56 / 32,239
+Radeon HD 6950,Cayman,"Dec 14th, 2010",PCIe 2.0 x16,"2 GB, GDDR5, 256 bit",800 MHz,1250 MHz,1408 / 88 / 32,299
+Radeon HD 6970,Cayman,"Dec 14th, 2010",PCIe 2.0 x16,"2 GB, GDDR5, 256 bit",880 MHz,1375 MHz,1536 / 96 / 32,369
+Radeon HD 3570,RV620,"Jul 5th, 2010",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",796 MHz,495 MHz,40 / 4 / 4,
+Radeon HD 4700,RV730,"Feb 11th, 2010",PCIe 2.0 x16,"512 MB, DDR2, 128 bit",600 MHz,400 MHz,320 / 32 / 8,
+Radeon HD 4855,RV770,"Jan 3rd, 2010",PCIe 2.0 x16,"512 MB, GDDR5, 256 bit",575 MHz,900 MHz,640 / 32 / 16,
+Radeon HD 5450 PCI,Cedar,"Feb 4th, 2010",PCI,"512 MB, DDR2, 64 bit",650 MHz,333 MHz,80 / 8 / 4,
+Radeon HD 5450 PCIe x1,Cedar,"Feb 4th, 2010",PCIe 2.0 x1,"512 MB, DDR3, 64 bit",650 MHz,500 MHz,80 / 8 / 4,
+Radeon HD 5450,Cedar,"Feb 4th, 2010",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",650 MHz,400 MHz,80 / 8 / 4,
+Radeon HD 5550,Redwood,"Feb 9th, 2010",PCIe 2.0 x16,"512 MB, GDDR5, 128 bit",550 MHz,800 MHz,320 / 16 / 8,
+Radeon HD 5570 OEM,Redwood,"Feb 9th, 2010",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",550 MHz,667 MHz,320 / 16 / 8,
+Radeon HD 5570,Pinewood,"Feb 9th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",625 MHz,800 MHz,400 / 20 / 8,
+Radeon HD 5570,Redwood,"Feb 9th, 2010",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,800 MHz,400 / 20 / 8,
+Radeon HD 5670,Redwood,"Jan 14th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",775 MHz,1000 MHz,400 / 20 / 8,119
+Radeon HD 5670 640SP Edition,Juniper,"Jul 18th, 2010",PCIe 2.0 x16,"512 MB, GDDR5, 128 bit",750 MHz,1000 MHz,640 / 32 / 8,119
+Radeon HD 5770 Mac Edition,Juniper,"Jul 4th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",850 MHz,1195 MHz,800 / 40 / 16,
+Radeon HD 5770 X2,Juniper,"Oct 13th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",850 MHz,1200 MHz,800 / 40 / 16,
+Radeon HD 5830,Cypress,"Feb 25th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",800 MHz,1000 MHz,1120 / 56 / 16,
+Radeon HD 5870 Mac Edition,Cypress,"Jun 30th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",850 MHz,1195 MHz,1600 / 80 / 32,479
+Radeon HD 5870 Eyefinity 6,Cypress,"Mar 11th, 2010",PCIe 2.0 x16,"2 GB, GDDR5, 256 bit",850 MHz,1200 MHz,1600 / 80 / 32,479
+Xbox 360 S GPU,Xenos Vejle,"Jun 19th, 2010",IGP,"512 MB, GDDR3, 128 bit",500 MHz,700 MHz,240 / 16 / 8,
+GeForce 8400 GS Rev. 3,GT218S,"Jul 12th, 2010",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",520 MHz,400 MHz,8/4/2004,
+GeForce 9500 GT Mac Edition,G96C,"May 19th, 2010",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",550 MHz,800 MHz,32 / 16 / 8,
+GeForce GT 220,G94,"Jan 26th, 2010",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",600 MHz,700 MHz,48 / 24 / 8,
+GeForce GTX 275 PhysX Edition,GT200B,"Feb 16th, 2010",PCIe 2.0 x16,"896 MB, GDDR3, 448 bit",633 MHz,1134 MHz,240 / 80 / 28,
+GeForce 315 OEM,GT216,"Mar 31st, 2010",PCIe 2.0 x16,"512 MB, DDR3, 64 bit",475 MHz,790 MHz,48 / 16 / 8,
+GeForce GT 320 OEM,GT215,"Feb 2nd, 2010",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",540 MHz,790 MHz,72 / 24 / 8,
+GeForce GT 330 OEM,GT215,"Feb 2nd, 2010",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",540 MHz,790 MHz,96 / 32 / 8,
+GeForce GT 330 OEM,GT215,"Feb 2nd, 2010",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",550 MHz,1000 MHz,96 / 32 / 8,
+GeForce GT 330 OEM,G92B,"Feb 2nd, 2010",PCIe 2.0 x16,"256 MB, DDR2, 128 bit",500 MHz,510 MHz,96 / 48 / 16,
+GeForce GT 330 OEM,G92,"Feb 2nd, 2010",PCIe 2.0 x16,"1024 MB, GDDR3, 256 bit",500 MHz,800 MHz,96 / 48 / 8,
+GeForce GT 340 OEM,GT215,"Feb 2nd, 2010",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",550 MHz,850 MHz,96 / 32 / 8,
+GeForce 405 OEM,GT218S,"Sep 3rd, 2010",PCIe 2.0 x16,"512 MB, DDR3, 64 bit",589 MHz,790 MHz,16 / 8 / 4,
+GeForce 405 OEM,GT216,"Sep 3rd, 2010",PCIe 2.0 x16,"1024 MB, DDR2, 128 bit",475 MHz,400 MHz,24 / 12 / 8,
+GeForce 405 OEM,GT216,"Sep 3rd, 2010",PCIe 2.0 x16,"512 MB, DDR3, 64 bit",475 MHz,800 MHz,48 / 16 / 8,
+GeForce GT 415 OEM,GT216,"Sep 3rd, 2010",PCIe 2.0 x16,"512 MB, DDR3, 128 bit",625 MHz,333 MHz,48 / 16 / 8,
+GeForce GT 420 OEM,GF108,"Sep 3rd, 2010",PCIe 2.0 x16,"1024 MB, DDR3, 128 bit",700 MHz,900 MHz,48 / 4 / 4,
+GeForce GT 430 PCI,GF108,"Oct 11th, 2010",PCI,"512 MB, DDR3, 64 bit",700 MHz,600 MHz,96 / 16 / 4,
+GeForce GT 430,GF108,"Oct 11th, 2010",PCIe 2.0 x16,"512 MB, DDR3, 64 bit",700 MHz,800 MHz,96 / 16 / 4,79
+GeForce GT 430 OEM,GF108,"Oct 11th, 2010",PCIe 2.0 x16,"2 GB, DDR3, 128 bit",700 MHz,800 MHz,96 / 16 / 4,
+GeForce GT 440 OEM,GF106,"Oct 11th, 2010",PCIe 2.0 x16,"1536 MB, DDR3, 192 bit",810 MHz,900 MHz,144 / 24 / 24,
+GeForce GTS 450 OEM,GF106,"Sep 13th, 2010",PCIe 2.0 x16,"512 MB, GDDR5, 128 bit",783 MHz,902 MHz,144 / 24 / 16,
+GeForce GTS 450 OEM,GF106,"Oct 11th, 2010",PCIe 2.0 x16,"1536 MB, GDDR5, 192 bit",790 MHz,1000 MHz,144 / 24 / 24,
+GeForce GTS 450,GF106,"Sep 13th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",783 MHz,902 MHz,192 / 32 / 16,129
+GeForce GTX 460 SE,GF104,"Nov 15th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",650 MHz,850 MHz,288 / 48 / 32,160
+GeForce GTX 460 SE v2,GF114,"Nov 15th, 2010",PCIe 2.0 x16,"768 MB, GDDR5, 192 bit",650 MHz,850 MHz,288 / 48 / 24,
+GeForce GTX 460 OEM,GF104,"Oct 11th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",650 MHz,850 MHz,336 / 56 / 32,
+GeForce GTX 460,GF104,"Jul 12th, 2010",PCIe 2.0 x16,"768 MB, GDDR5, 192 bit",675 MHz,900 MHz,336 / 56 / 24,199
+GeForce GTX 460,GF104,"Jul 12th, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",675 MHz,900 MHz,336 / 56 / 32,229
+GeForce GTX 465,GF100,"May 31st, 2010",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",608 MHz,802 MHz,352 / 44 / 32,279
+GeForce GTX 470,GF100,"Mar 26th, 2010",PCIe 2.0 x16,"1280 MB, GDDR5, 320 bit",608 MHz,837 MHz,448 / 56 / 40,349
+GeForce GTX 470 PhysX Edition,GF100,Never Released,PCIe 2.0 x16,"1280 MB, GDDR5, 320 bit",608 MHz,837 MHz,448 / 56 / 40,
+GeForce GTX 470 X2,GF100,Never Released,PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",608 MHz,837 MHz,352 / 44 / 32,
+GeForce GTX 480,GF100,"Mar 26th, 2010",PCIe 2.0 x16,"1536 MB, GDDR5, 384 bit",701 MHz,924 MHz,480 / 60 / 48,499
+GeForce GTX 570,GF110,"Dec 7th, 2010",PCIe 2.0 x16,"1280 MB, GDDR5, 320 bit",732 MHz,950 MHz,480 / 60 / 40,349
+GeForce GTX 570 Rev. 2,GF110,"Dec 7th, 2010",PCIe 2.0 x16,"1280 MB, GDDR5, 320 bit",732 MHz,950 MHz,480 / 60 / 40,349
+GeForce GTX 580,GF110,"Nov 9th, 2010",PCIe 2.0 x16,"1536 MB, GDDR5, 384 bit",772 MHz,1002 MHz,512 / 64 / 48,499
+Radeon HD 6230,Park,"Jul 2nd, 2011",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",650 MHz,667 MHz,80 / 8 / 4,
+Radeon HD 6250,Cedar,"Jan 31st, 2011",PCIe 2.0 x16,"512 MB, GDDR3, 64 bit",650 MHz,500 MHz,80 / 8 / 4,
+Radeon HD 6290,Cedar,"Dec 4th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 64 bit",650 MHz,800 MHz,80 / 8 / 4,
+Radeon HD 6350,Park,"Feb 7th, 2011",PCIe 2.0 x16,"512 MB, GDDR3, 64 bit",650 MHz,400 MHz,80 / 8 / 4,23
+Radeon HD 6350,Cedar,"Feb 7th, 2011",PCIe 2.0 x16,"512 MB, GDDR3, 64 bit",650 MHz,500 MHz,80 / 8 / 4,23
+Radeon HD 6390,Redwood,"Jul 4th, 2011",PCIe 2.0 x16,"1024 MB, DDR2, 128 bit",550 MHz,500 MHz,320 / 16 / 8,
+Radeon HD 6450 OEM,Caicos,"Feb 7th, 2011",PCIe 2.0 x16,"512 MB, GDDR3, 64 bit",625 MHz,533 MHz,160 / 8 / 4,
+Radeon HD 6450,Caicos,"Apr 7th, 2011",PCIe 2.0 x16,"512 MB, GDDR3, 64 bit",625 MHz,500 MHz,160 / 8 / 4,55
+Radeon HD 6490,Redwood,"Jul 4th, 2011",PCIe 2.0 x16,"1024 MB, DDR2, 128 bit",550 MHz,500 MHz,320 / 16 / 8,
+Radeon HD 6510,Turks,"May 14th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,667 MHz,320 / 16 / 8,
+Radeon HD 6510,Redwood,"May 14th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,500 MHz,400 / 20 / 8,
+Radeon HD 6530,Redwood,"May 14th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,600 MHz,400 / 20 / 8,
+Radeon HD 6570,Thames,"Feb 7th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,500 MHz,480 / 24 / 8,
+Radeon HD 6570 OEM,Turks,"Feb 7th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,900 MHz,480 / 24 / 8,
+Radeon HD 6570,Turks,"Apr 19th, 2011",PCIe 2.0 x16,"2 GB, GDDR5, 128 bit",650 MHz,1000 MHz,480 / 24 / 8,79
+Radeon HD 6670,Turks,"Apr 19th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",800 MHz,1000 MHz,480 / 24 / 8,99
+Radeon HD 6750,Juniper,"Jan 21st, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",700 MHz,1150 MHz,720 / 36 / 16,
+Radeon HD 6770,Juniper,"Jan 21st, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",850 MHz,1200 MHz,800 / 40 / 16,129
+Radeon HD 6790,Barts,"Apr 4th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",840 MHz,1050 MHz,800 / 40 / 16,149
+Radeon HD 6850 X2,Barts,"Sep 19th, 2011",PCIe 2.0 x16,"2 GB, GDDR5, 256 bit",800 MHz,1050 MHz,960 / 48 / 32,
+Radeon HD 6870 X2,Barts,"Jul 8th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",900 MHz,1050 MHz,1120 / 56 / 32,520
+Radeon HD 6930,Cayman,"Dec 1st, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",750 MHz,1200 MHz,1280 / 80 / 32,180
+Radeon HD 6990,Antilles,"Mar 8th, 2011",PCIe 2.0 x16,"2 GB, GDDR5, 256 bit",830 MHz,1250 MHz,1536 / 96 / 32,699
+Radeon HD 6970 X2,Antilles,Never Released,PCIe 2.0 x16,"2 GB, GDDR5, 256 bit",880 MHz,1375 MHz,1536 / 96 / 32,
+Radeon HD 7970,Tahiti,"Dec 22nd, 2011",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",925 MHz,1375 MHz,2048 / 128 / 32,549
+Radeon HD 4450,RV710,"Nov 18th, 2011",PCIe 2.0 x16,"512 MB, DDR2, 64 bit",600 MHz,400 MHz,80 / 8 / 4,
+Radeon HD 4580,RV635,"Nov 20th, 2011",PCIe 2.0 x16,"512 MB, GDDR3, 128 bit",796 MHz,693 MHz,120 / 8 / 4,
+Radeon HD 4720,RV730,"Dec 11th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",600 MHz,667 MHz,320 / 32 / 8,
+Radeon HD 5530,Cedar,"Mar 17th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 64 bit",650 MHz,600 MHz,80 / 8 / 4,
+Radeon HD 5570,Turks,"Oct 11th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,500 MHz,320 / 16 / 4,
+Radeon HD 5630,Redwood,"Feb 15th, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,390 MHz,320 / 16 / 8,
+Radeon HD 5690,Redwood,"Feb 1st, 2011",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",775 MHz,1000 MHz,400 / 20 / 8,
+Radeon HD 5730,Redwood,"Feb 26th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",775 MHz,1000 MHz,400 / 20 / 8,
+GeForce 9300 GS Rev. 2,GT218S,"Mar 12th, 2011",PCIe 2.0 x16,"256 MB, DDR2, 64 bit",589 MHz,333 MHz,16 / 8 / 4,
+GeForce 315 OEM,GT218S,"Feb 22nd, 2011",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",589 MHz,600 MHz,16 / 8 / 4,
+GeForce 315 OEM,GT215,"Apr 28th, 2011",PCIe 2.0 x16,"256 MB, DDR2, 64 bit",506 MHz,350 MHz,48 / 16 / 4,
+GeForce GT 440,GF108,"Feb 1st, 2011",PCIe 2.0 x16,"1024 MB, DDR3, 128 bit",810 MHz,900 MHz,96 / 16 / 4,79
+GeForce GT 440 Mac Edition,GF108,"Feb 9th, 2011",PCIe 1.0 x16,"1024 MB, DDR3, 128 bit",810 MHz,667 MHz,96 / 16 / 4,
+GeForce GTS 450 Rev. 2,GF116,"Mar 15th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",783 MHz,902 MHz,192 / 32 / 16,
+GeForce GTX 460 v2,GF114,"Sep 24th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 192 bit",779 MHz,1002 MHz,336 / 56 / 24,199
+GeForce GTX 460 v2 ES,GF114,"Sep 24th, 2011",PCIe 2.0 x16,"1280 MB, GDDR5, 256 bit",779 MHz,1002 MHz,336 / 56 / 32,
+GeForce GTX 460 X2,GF104,"Mar 11th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",701 MHz,900 MHz,336 / 56 / 32,
+GeForce GTX 480 Core 512,GF100,Never Released,PCIe 2.0 x16,"1536 MB, GDDR5, 384 bit",527 MHz,700 MHz,512 / 64 / 48,
+GeForce GTX 490,GF100,Never Released,PCIe 2.0 x16,"1536 MB, GDDR5, 384 bit",608 MHz,854 MHz,480 / 60 / 48,
+GeForce 510 OEM,GF119S,"Sep 29th, 2011",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",523 MHz,898 MHz,48 / 8 / 4,
+GeForce GT 520 PCI,GF119S,"Apr 13th, 2011",PCI,"1024 MB, DDR3, 64 bit",810 MHz,900 MHz,48 / 8 / 4,
+GeForce GT 520 PCIe x1,GF119S,"Apr 13th, 2011",PCIe 2.0 x1,"1024 MB, DDR3, 64 bit",810 MHz,900 MHz,48 / 8 / 4,
+GeForce GT 520,GF119S,"Apr 13th, 2011",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",810 MHz,900 MHz,48 / 8 / 4,59
+GeForce GT 530 OEM,GF108,"May 14th, 2011",PCIe 2.0 x16,"1024 MB, DDR3, 128 bit",700 MHz,900 MHz,96 / 16 / 4,
+GeForce GT 545 OEM,GF116,"May 14th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 128 bit",871 MHz,1000 MHz,144 / 24 / 16,
+GeForce GT 545,GF116,"May 14th, 2011",PCIe 2.0 x16,"1536 MB, DDR3, 192 bit",720 MHz,800 MHz,144 / 24 / 16,149
+GeForce GTX 550 Ti,GF116,"Mar 15th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 192 bit",900 MHz,1026 MHz,192 / 32 / 24,149
+GeForce GTX 555 OEM,GF114,"May 14th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 192 bit",736 MHz,957 MHz,288 / 48 / 24,
+GeForce GTX 560,GF114,"May 17th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",810 MHz,1000 MHz,336 / 56 / 32,199
+GeForce GTX 560 OEM,GF110,"Nov 29th, 2011",PCIe 2.0 x16,"1280 MB, GDDR5, 320 bit",552 MHz,802 MHz,384 / 48 / 40,
+GeForce GTX 560 Ti OEM,GF110,"Mar 30th, 2011",PCIe 2.0 x16,"1280 MB, GDDR5, 256 bit",732 MHz,950 MHz,352 / 44 / 40,
+GeForce GTX 560 Ti,GF114,"Jan 25th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",823 MHz,1002 MHz,384 / 64 / 32,249
+GeForce GTX 560 Ti OEM,GF114,"Mar 8th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",823 MHz,1002 MHz,384 / 64 / 32,
+GeForce GTX 560 Ti 448,GF110,"Nov 29th, 2011",PCIe 2.0 x16,"1280 MB, GDDR5, 320 bit",732 MHz,950 MHz,448 / 56 / 40,289
+GeForce GTX 560 Ti X2,GF114,"Jan 25th, 2011",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",850 MHz,1002 MHz,384 / 64 / 32,
+GeForce GTX 580 Rev. 2,GF110,"Jun 6th, 2011",PCIe 2.0 x16,"1536 MB, GDDR5, 384 bit",772 MHz,1002 MHz,512 / 64 / 48,499
+GeForce GTX 590,GF110,"Mar 24th, 2011",PCIe 2.0 x16,"1536 MB, GDDR5, 384 bit",608 MHz,854 MHz,512 / 64 / 48,699
+Playstation Vita GPU,SGX543 MP4+,"Dec 11th, 2011",IGP,"128 MB, CDRAM, 64 bit",200 MHz,400 MHz,4 / 2 / 8 / 4,
+Radeon HD 6850 1440SP Edition,Cypress,"Aug 21st, 2012",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",725 MHz,1000 MHz,1440 / 72 / 32,
+Radeon HD 7350 OEM PCI,Cedar,"Jan 5th, 2012",PCI,"512 MB, GDDR3, 64 bit",650 MHz,500 MHz,80 / 8 / 4,
+Radeon HD 7350 OEM,Cedar,"Jan 5th, 2012",PCIe 2.0 x16,"512 MB, GDDR3, 64 bit",650 MHz,800 MHz,80 / 8 / 4,
+Radeon HD 7450 OEM,Caicos,"Jan 5th, 2012",PCIe 2.0 x16,"512 MB, GDDR3, 64 bit",625 MHz,533 MHz,160 / 8 / 4,
+Radeon HD 7470 OEM,Caicos,"Jan 5th, 2012",PCIe 2.0 x16,"1024 MB, GDDR5, 64 bit",750 MHz,900 MHz,160 / 8 / 4,
+Radeon HD 7570,Turks,"Jan 5th, 2012",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,800 MHz,480 / 24 / 8,
+Radeon HD 7670 OEM,Turks,"Jan 5th, 2012",PCIe 2.0 x16,"512 MB, GDDR5, 128 bit",800 MHz,1000 MHz,480 / 24 / 8,
+Radeon HD 7750,Cape Verde,"Feb 15th, 2012",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",800 MHz,1125 MHz,512 / 32 / 16,109
+Radeon HD 7770 GHz Edition,Cape Verde,"Feb 15th, 2012",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",1000 MHz,1125 MHz,640 / 40 / 16,159
+Radeon HD 7850,Pitcairn,"Mar 5th, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",860 MHz,1200 MHz,1024 / 64 / 32,249
+Radeon HD 7870 GHz Edition,Pitcairn,"Mar 5th, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",1000 MHz,1200 MHz,1280 / 80 / 32,349
+Radeon HD 7870 XT,Tahiti,"Nov 19th, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",925 MHz,1500 MHz,1536 / 96 / 32,270
+Radeon HD 7950 Monica BIOS 1,Tahiti,"Jan 31st, 2012",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",925 MHz,1250 MHz,1536 / 96 / 32,
+Radeon HD 7950 Monica BIOS 2,Tahiti,"Jan 31st, 2012",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",800 MHz,1250 MHz,768 / 48 / 32,
+Radeon HD 7950,Tahiti,"Jan 31st, 2012",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",800 MHz,1250 MHz,1792 / 112 / 32,449
+Radeon HD 7950 Boost,Tahiti,"Jun 22nd, 2012",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",850 MHz,1250 MHz,1792 / 112 / 32,449
+Radeon HD 7970 GHz Edition,Tahiti,"Jun 22nd, 2012",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",1000 MHz,1500 MHz,2048 / 128 / 32,499
+Radeon HD 7970 X2,New Zealand,"Aug 31st, 2012",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",925 MHz,1375 MHz,2048 / 128 / 32,899
+Wii U GPU,Latte,"Nov 18th, 2012",IGP,"2 GB, DDR3, 64 bit",550 MHz,800 MHz,160 / 16 / 8,
+Radeon HD 5470,Cedar,"Feb 13th, 2012",PCIe 2.0 x16,"512 MB, GDDR3, 64 bit",650 MHz,400 MHz,80 / 8 / 4,
+Radeon HD 5490,Cedar,"Oct 28th, 2012",PCIe 2.0 x16,"1024 MB, GDDR3, 64 bit",650 MHz,500 MHz,80 / 8 / 4,
+GeForce 9400 GT Rev. 3,GT218S,"Jun 13th, 2012",PCIe 2.0 x16,"128 MB, DDR2, 64 bit",589 MHz,600 MHz,16 / 8 / 4,
+GeForce GTS 450 Rev. 3,GF116,"Jul 11th, 2012",PCIe 2.0 x16,"1024 MB, DDR3, 128 bit",783 MHz,700 MHz,144 / 24 / 16,
+GeForce GT 520 OEM,GF108,"Feb 1st, 2012",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",700 MHz,667 MHz,48 / 8 / 2,
+GeForce GT 520 OEM,GF119S,"Aug 20th, 2012",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",589 MHz,500 MHz,48 / 8 / 4,
+GeForce GTX 560 SE,GF114,"Feb 20th, 2012",PCIe 2.0 x16,"1024 MB, GDDR5, 192 bit",736 MHz,957 MHz,288 / 48 / 24,
+GeForce 605 OEM,GF119S,"Apr 2nd, 2012",PCIe 2.0 x16,"512 MB, DDR3, 64 bit",523 MHz,897 MHz,48 / 8 / 4,
+GeForce 615 OEM,GF108,"May 15th, 2012",PCIe 2.0 x16,"1024 MB, DDR3, 128 bit",660 MHz,900 MHz,48 / 8 / 4,
+GeForce GT 610 PCI,GF119S,"Apr 2nd, 2012",PCI,"512 MB, DDR3, 64 bit",810 MHz,667 MHz,48 / 8 / 4,
+GeForce GT 610 PCIe x1,GF119S,"Apr 2nd, 2012",PCIe 2.0 x1,"512 MB, DDR3, 64 bit",810 MHz,500 MHz,48 / 8 / 4,
+GeForce GT 610 OEM,GF119S,"Sep 9th, 2012",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",550 MHz,500 MHz,48 / 8 / 4,
+GeForce GT 610,GF119S,"Apr 2nd, 2012",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",810 MHz,898 MHz,48 / 8 / 4,
+GeForce GT 620 OEM,GF119S,"Apr 2nd, 2012",PCIe 2.0 x16,"512 MB, DDR3, 64 bit",810 MHz,898 MHz,48 / 8 / 4,
+GeForce GT 620,GF108,"May 15th, 2012",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",700 MHz,900 MHz,96 / 16 / 4,
+GeForce GT 630 OEM,GK107,"Apr 24th, 2012",PCIe 3.0 x16,"1024 MB, DDR3, 128 bit",875 MHz,891 MHz,192 / 16 / 16,
+GeForce GT 630,GF108,"May 15th, 2012",PCIe 2.0 x16,"1024 MB, DDR3, 128 bit",810 MHz,900 MHz,96 / 16 / 4,
+GeForce GT 640 OEM Rebrand,GF116,"Apr 24th, 2012",PCIe 2.0 x16,"1536 MB, DDR3, 192 bit",720 MHz,800 MHz,144 / 24 / 24,
+GeForce GT 640 OEM,GK107,"Apr 24th, 2012",PCIe 3.0 x16,"2 GB, DDR3, 128 bit",797 MHz,891 MHz,384 / 32 / 16,
+GeForce GT 640,GK107,"Jun 5th, 2012",PCIe 3.0 x16,"2 GB, DDR3, 128 bit",902 MHz,891 MHz,384 / 32 / 16,99
+GeForce GT 645 OEM,GF114,"Apr 24th, 2012",PCIe 2.0 x16,"1024 MB, GDDR5, 192 bit",776 MHz,957 MHz,288 / 48 / 24,
+GeForce GTX 650,GK107,"Sep 6th, 2012",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",1058 MHz,1250 MHz,384 / 32 / 16,109
+GeForce GTX 650 Ti,GK106S,"Oct 9th, 2012",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",928 MHz,1350 MHz,768 / 64 / 16,149
+GeForce GTX 660,GK106,"Sep 6th, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 192 bit",980 MHz,1502 MHz,960 / 80 / 24,229
+GeForce GTX 660 OEM,GK104,"Aug 22nd, 2012",PCIe 3.0 x16,"1536 MB, GDDR5, 192 bit",823 MHz,1400 MHz,1152 / 96 / 24,
+GeForce GTX 660 OEM,GK104,"Aug 22nd, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",823 MHz,1400 MHz,1152 / 96 / 32,
+GeForce GTX 660 Ti,GK104,"Aug 16th, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 192 bit",915 MHz,1502 MHz,1344 / 112 / 24,299
+GeForce GTX 670,GK104,"May 10th, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",915 MHz,1502 MHz,1344 / 112 / 32,399
+GeForce GTX 680,GK104,"Mar 22nd, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",1006 MHz,1502 MHz,1536 / 128 / 32,499
+GeForce GTX 690,GK104,"May 3rd, 2012",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",915 MHz,1502 MHz,1536 / 128 / 32,999
+Playstation 3 GPU 40nm,RSX-40nm,"Oct 4th, 2012",IGP,"256 MB, GDDR3, 128 bit",550 MHz,650 MHz,24 / 8 / 24 / 8,
+Radeon HD 6610,Redwood,"Mar 20th, 2013",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,800 MHz,400 / 20 / 8,
+Radeon HD 6770 Green Edition,Juniper,"Apr 19th, 2013",PCIe 2.0 x16,"2 GB, GDDR3, 128 bit",700 MHz,667 MHz,720 / 36 / 16,
+Radeon HD 6870 1600SP Edition,Cypress,"Jan 14th, 2013",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",850 MHz,1050 MHz,1600 / 80 / 32,
+Radeon HD 7510 OEM,Turks,"Feb 1st, 2013",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,667 MHz,320 / 16 / 4,
+Radeon HD 7570 OEM,Redwood,"Mar 20th, 2013",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,800 MHz,400 / 20 / 8,
+Radeon HD 7720 OEM,Barts,"Mar 15th, 2013",PCIe 2.0 x16,"1024 MB, GDDR5, 256 bit",840 MHz,1050 MHz,800 / 40 / 32,
+Radeon HD 7730,Cape Verde,"May 1st, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",800 MHz,1125 MHz,384 / 24 / 8,59
+Radeon HD 7790,Bonaire,"Mar 22nd, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",1000 MHz,1500 MHz,896 / 56 / 16,149
+Radeon HD 7950 Mac Edition,Tahiti,"Mar 7th, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",800 MHz,1250 MHz,1792 / 112 / 32,449
+Radeon HD 7990,Malta,"Apr 24th, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",950 MHz,1500 MHz,2048 / 128 / 32,999
+Radeon HD 8350 OEM,Cedar,"Jan 8th, 2013",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",650 MHz,667 MHz,80 / 8 / 4,
+Radeon HD 8450 OEM,Caicos,"Jan 8th, 2013",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",625 MHz,667 MHz,160 / 8 / 4,
+Radeon HD 8470 OEM,Caicos,"Jan 8th, 2013",PCIe 2.0 x16,"1024 MB, GDDR5, 64 bit",775 MHz,800 MHz,160 / 8 / 4,
+Radeon HD 8490 OEM,Caicos,"Jul 23rd, 2013",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",875 MHz,900 MHz,160 / 8 / 4,
+Radeon HD 8510 OEM,Turks,"Jul 23rd, 2013",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,800 MHz,480 / 24 / 8,
+Radeon HD 8510 OEM,Redwood,"Apr 24th, 2013",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,500 MHz,400 / 20 / 8,
+Radeon HD 8550 OEM,Turks,"Oct 25th, 2013",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,800 MHz,480 / 24 / 8,
+Radeon HD 8570 OEM Rebrand,Turks,"Jul 23rd, 2013",PCIe 2.0 x16,"1024 MB, GDDR3, 128 bit",650 MHz,800 MHz,480 / 24 / 8,
+Radeon HD 8570 OEM,Oland,"Jan 8th, 2013",PCIe 3.0 x8,"2 GB, GDDR3, 128 bit",730 MHz,900 MHz,384 / 24 / 8,
+Radeon HD 8670 OEM,Oland,"Jan 8th, 2013",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1000 MHz,1150 MHz,384 / 24 / 8,
+Radeon HD 8730 OEM,Cape Verde,"Sep 5th, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",800 MHz,1125 MHz,384 / 24 / 8,
+Radeon HD 8740 OEM,Cape Verde,"Sep 5th, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",800 MHz,1125 MHz,512 / 32 / 16,
+Radeon HD 8760 OEM,Cape Verde,"Jan 8th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1000 MHz,1125 MHz,640 / 40 / 16,
+Radeon HD 8770 OEM,Bonaire,"Sep 2nd, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",1050 MHz,1500 MHz,896 / 56 / 16,
+Radeon HD 8860 OEM,Curacao,"Jan 8th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",925 MHz,1400 MHz,1280 / 80 / 32,
+Radeon HD 8870 OEM,Pitcairn,"Jan 8th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",1000 MHz,1200 MHz,1280 / 80 / 32,
+Radeon HD 8950 OEM,Tahiti,"Jan 8th, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",850 MHz,1250 MHz,1792 / 112 / 32,
+Radeon HD 8970 OEM,Tahiti,"Jan 8th, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",925 MHz,1375 MHz,2048 / 128 / 32,
+Radeon HD 8990 OEM,Malta,"Apr 24th, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",950 MHz,1500 MHz,2048 / 128 / 32,
+Radeon R5 220 OEM,Cedar,"Dec 21st, 2013",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",650 MHz,533 MHz,80 / 8 / 4,
+Radeon R5 230 OEM,Caicos,"Dec 21st, 2013",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",625 MHz,667 MHz,160 / 8 / 4,
+Radeon R5 235 OEM,Caicos,"Dec 21st, 2013",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",775 MHz,900 MHz,160 / 8 / 4,
+Radeon R5 235X OEM,Caicos,"Dec 21st, 2013",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",875 MHz,900 MHz,160 / 8 / 4,
+Radeon R5 240 OEM,Oland,"Nov 1st, 2013",PCIe 3.0 x8,"2 GB, DDR3, 64 bit",730 MHz,900 MHz,384 / 24 / 8,
+Radeon R7 240 OEM,Oland,"Nov 1st, 2013",PCIe 3.0 x8,"2 GB, DDR3, 128 bit",730 MHz,900 MHz,320 / 20 / 8,
+Radeon R7 240,Oland,"Oct 8th, 2013",PCIe 3.0 x8,"2 GB, DDR3, 128 bit",730 MHz,900 MHz,320 / 20 / 8,69
+Radeon R7 240,Oland,"Oct 8th, 2013",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",650 MHz,1150 MHz,320 / 20 / 8,69
+Radeon R7 250 OEM,Oland,"Oct 8th, 2013",PCIe 3.0 x8,"2 GB, DDR3, 128 bit",1000 MHz,1000 MHz,384 / 24 / 8,
+Radeon R7 250E,Cape Verde,"Dec 20th, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",800 MHz,1125 MHz,512 / 32 / 16,109
+Radeon R7 250,Oland,"Oct 8th, 2013",PCIe 3.0 x8,"1024 MB, GDDR5, 128 bit",1000 MHz,1150 MHz,384 / 24 / 8,89
+Radeon R7 250,Cape Verde,"Oct 8th, 2013",PCIe 3.0 x16,"1024 MB, DDR3, 128 bit",700 MHz,900 MHz,512 / 32 / 16,
+Radeon R7 250,Cape Verde,"Oct 8th, 2013",PCIe 3.0 x16,"1024 MB, DDR3, 128 bit",925 MHz,900 MHz,512 / 32 / 16,
+Radeon R7 260,Bonaire,"Dec 17th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1000 MHz,1500 MHz,768 / 48 / 16,109
+Radeon R7 260X,Bonaire,"Oct 8th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1100 MHz,1625 MHz,896 / 56 / 16,139
+Radeon R9 255 OEM,Cape Verde,"Dec 21st, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",900 MHz,1150 MHz,512 / 32 / 16,
+Radeon R9 260 OEM,Bonaire,"Dec 21st, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",1100 MHz,1625 MHz,896 / 56 / 16,
+Radeon R9 270,Curacao,"Nov 13th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",900 MHz,1400 MHz,1280 / 80 / 32,179
+Radeon R9 270X,Curacao,"Oct 8th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",1000 MHz,1400 MHz,1280 / 80 / 32,199
+Radeon R9 280X,Tahiti,"Oct 8th, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",850 MHz,1500 MHz,2048 / 128 / 32,299
+Radeon R9 290,Hawaii,"Nov 5th, 2013",PCIe 3.0 x16,"4 GB, GDDR5, 512 bit",947 MHz,1250 MHz,2560 / 160 / 64,399
+Radeon R9 290X,Hawaii,"Oct 24th, 2013",PCIe 3.0 x16,"4 GB, GDDR5, 512 bit",1000 MHz,1250 MHz,2816 / 176 / 64,549
+Radeon R9 280X2,Tahiti,Unknown,PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",950 MHz,1500 MHz,2048 / 128 / 32,
+Xbox One GPU,Durango,"Nov 22nd, 2013",IGP,"8 GB, DDR3, 256 bit",853 MHz,1066 MHz,768 / 48 / 16,
+Playstation 4 GPU,Liverpool,"Nov 24th, 2013",IGP,"8 GB, GDDR5, 256 bit",800 MHz,1375 MHz,1152 / 72 / 32,
+Xbox 360 E GPU,Xenos Corona,"Jun 10th, 2013",IGP,"512 MB, GDDR3, 128 bit",500 MHz,700 MHz,240 / 16 / 8,
+GeForce 505 OEM,GT218S,"Jan 6th, 2013",PCIe 1.0 x16,"512 MB, DDR3, 64 bit",589 MHz,600 MHz,16 / 8 / 4,
+GeForce 505 OEM,GT216,"Feb 17th, 2013",PCIe 1.0 x16,"1024 MB, DDR3, 128 bit",615 MHz,700 MHz,24 / 12 / 8,
+GeForce GT 625 OEM,GF119S,"Feb 18th, 2013",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",874 MHz,825 MHz,48 / 8 / 4,
+GeForce GT 630 Rev. 2 PCIe x8,GK208,"May 29th, 2013",PCIe 2.0 x8,"2 GB, DDR3, 64 bit",902 MHz,900 MHz,384 / 32 / 8,
+GeForce GT 630 Rev. 2,GK208,"May 29th, 2013",PCIe 2.0 x8,"2 GB, DDR3, 64 bit",902 MHz,900 MHz,384 / 32 / 8,
+GeForce GT 635 OEM,GK208,"Oct 1st, 2013",PCIe 3.0 x8,"1024 MB, DDR3, 64 bit",967 MHz,900 MHz,384 / 32 / 8,
+GeForce GT 640 Rev. 2,GK208,"May 29th, 2013",PCIe 2.0 x8,"1024 MB, GDDR5, 64 bit",1046 MHz,1252 MHz,384 / 32 / 8,89
+GeForce GTX 645 OEM,GK106S,"Apr 22nd, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",824 MHz,1000 MHz,576 / 48 / 16,
+GeForce GTX 650,GK106,"Nov 27th, 2013",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",1058 MHz,1250 MHz,384 / 32 / 16,
+GeForce GTX 650 Ti OEM,GK106,"Mar 31st, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",928 MHz,1350 MHz,768 / 64 / 16,
+GeForce GTX 650 Ti Boost,GK106,"Mar 26th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 192 bit",980 MHz,1502 MHz,768 / 64 / 24,169
+GeForce GTX 680 Mac Edition,GK104,"Apr 3rd, 2013",PCIe 2.0 x16,"2 GB, GDDR5, 256 bit",1006 MHz,1502 MHz,1536 / 128 / 32,599
+GeForce GTX 760 OEM,GK104,"Jun 27th, 2013",PCIe 3.0 x16,"1536 MB, GDDR5, 192 bit",823 MHz,1400 MHz,1152 / 96 / 24,
+GeForce GTX 760 OEM Rebrand,GK104,"Aug 25th, 2013",PCIe 3.0 x16,"1536 MB, GDDR5, 256 bit",823 MHz,1400 MHz,1152 / 96 / 32,
+GeForce GTX 760,GK104,"Jun 25th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",980 MHz,1502 MHz,1152 / 96 / 32,249
+GeForce GTX 760 Ti OEM,GK104,"Sep 27th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",915 MHz,1502 MHz,1344 / 112 / 32,
+GeForce GTX 760 Ti OEM Rebrand,GK104,"Aug 25th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",915 MHz,1502 MHz,1344 / 112 / 32,
+GeForce GTX 760 X2,GK104,"Nov 19th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",1006 MHz,1502 MHz,1152 / 96 / 32,
+GeForce GTX 770,GK104,"May 30th, 2013",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",1046 MHz,1753 MHz,1536 / 128 / 32,399
+GeForce GTX 780,GK110,"May 23rd, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",863 MHz,1502 MHz,2304 / 192 / 48,649
+GeForce GTX 780 Rev. 2,GK110B,"Sep 10th, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",863 MHz,1502 MHz,2304 / 192 / 48,649
+GeForce GTX 780 6 GB,GK110B,"Sep 10th, 2013",PCIe 3.0 x16,"6 GB, GDDR5, 384 bit",863 MHz,1502 MHz,2304 / 192 / 48,
+GeForce GTX 780 Ti,GK110B,"Nov 7th, 2013",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",875 MHz,1753 MHz,2880 / 240 / 48,699
+GeForce GTX 780 Ti Engineering Sample,GK180,Never Released,PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",875 MHz,1753 MHz,2880 / 240 / 48,
+GeForce GTX 780 Ti 6 GB,GK110B,Never Released,PCIe 3.0 x16,"6 GB, GDDR5, 384 bit",875 MHz,1753 MHz,2880 / 240 / 48,
+GeForce GTX TITAN,GK110,"Feb 19th, 2013",PCIe 3.0 x16,"6 GB, GDDR5, 384 bit",836 MHz,1502 MHz,2688 / 224 / 48,999
+Playstation 3 GPU 28nm,RSX-28nm,"Jun 3rd, 2013",IGP,"256 MB, GDDR3, 128 bit",550 MHz,650 MHz,24 / 8 / 24 / 8,
+Radeon R5 230,Caicos,"Apr 3rd, 2014",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",625 MHz,667 MHz,160 / 8 / 4,
+Radeon R7 250XE,Cape Verde,"Aug 21st, 2014",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",860 MHz,1125 MHz,640 / 40 / 16,
+Radeon R7 250X,Cape Verde,"Feb 13th, 2014",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",950 MHz,1125 MHz,640 / 40 / 16,99
+Radeon R7 265,Pitcairn,"Feb 13th, 2014",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",900 MHz,1400 MHz,1024 / 64 / 32,149
+Radeon R7 265X OEM,Curacao,"Aug 12th, 2014",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",900 MHz,1400 MHz,1280 / 80 / 32,
+Radeon R9 280,Tahiti,"Mar 4th, 2014",PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",827 MHz,1250 MHz,1792 / 112 / 32,279
+Radeon R9 285,Tonga,"Sep 2nd, 2014",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",918 MHz,1375 MHz,1792 / 112 / 32,249
+Radeon R9 285X,Tonga,Never Released,PCIe 3.0 x16,"3 GB, GDDR5, 384 bit",1002 MHz,1375 MHz,2048 / 128 / 32,
+Radeon R9 290X2,Hawaii,"Jun 24th, 2014",PCIe 3.0 x16,"4 GB, GDDR5, 512 bit",1000 MHz,1350 MHz,2816 / 176 / 64,1399
+Radeon R9 295X2,Vesuvius,"Apr 29th, 2014",PCIe 3.0 x16,"4 GB, GDDR5, 512 bit",1018 MHz,1250 MHz,2816 / 176 / 64,1499
+GeForce GTX 660 Rev. 2,GK104,"Sep 13th, 2014",PCIe 3.0 x16,"2 GB, GDDR5, 192 bit",980 MHz,1502 MHz,960 / 80 / 24,
+GeForce GT 705 OEM,GF119S,"Mar 27th, 2014",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",874 MHz,825 MHz,48 / 8 / 4,
+GeForce GT 710 PCIe x1,GK208B,"Mar 27th, 2014",PCIe 2.0 x1,"1024 MB, DDR3, 64 bit",954 MHz,800 MHz,192 / 16 / 8,
+GeForce GT 710,GK208,"Mar 27th, 2014",PCIe 2.0 x8,"2 GB, DDR3, 64 bit",954 MHz,900 MHz,192 / 16 / 8,
+GeForce GT 710,GK208B,"Mar 27th, 2014",PCIe 2.0 x8,"2 GB, DDR3, 64 bit",954 MHz,900 MHz,192 / 16 / 8,
+GeForce GT 720,GK208B,"Sep 29th, 2014",PCIe 2.0 x8,"1024 MB, DDR3, 64 bit",797 MHz,800 MHz,192 / 16 / 8,49
+GeForce GT 720,GK208,"Mar 27th, 2014",PCIe 2.0 x8,"2 GB, DDR3, 64 bit",967 MHz,900 MHz,384 / 32 / 8,49
+GeForce GT 730,GF108,"Jun 18th, 2014",PCIe 2.0 x16,"1024 MB, DDR3, 128 bit",700 MHz,900 MHz,96 / 16 / 4,
+GeForce GT 730,GF108,"Jun 18th, 2014",PCIe 2.0 x16,"2 GB, DDR3, 128 bit",700 MHz,800 MHz,96 / 16 / 4,
+GeForce GT 730,GK208B,"Jun 18th, 2014",PCIe 2.0 x8,"1024 MB, GDDR5, 64 bit",902 MHz,1253 MHz,384 / 32 / 8,
+GeForce GT 740,GK107,"May 29th, 2014",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",993 MHz,1253 MHz,384 / 32 / 16,89
+GeForce GTX 745 OEM,GM107,"Feb 18th, 2014",PCIe 3.0 x16,"4 GB, DDR3, 128 bit",1033 MHz,900 MHz,384 / 24 / 16,
+GeForce GTX 750,GM107,"Feb 18th, 2014",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",1020 MHz,1253 MHz,512 / 32 / 16,119
+GeForce GTX 750 Ti,GM107,"Feb 18th, 2014",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1020 MHz,1350 MHz,640 / 40 / 16,149
+GeForce GTX 750 Ti OEM,GK106,Unknown,PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",1033 MHz,1502 MHz,960 / 80 / 24,
+GeForce GTX TITAN BLACK,GK110B,"Feb 18th, 2014",PCIe 3.0 x16,"6 GB, GDDR5, 384 bit",889 MHz,1750 MHz,2880 / 240 / 48,999
+GeForce GTX TITAN Z,GK110B,"May 28th, 2014",PCIe 3.0 x16,"6 GB, GDDR5, 384 bit",705 MHz,1750 MHz,2880 / 240 / 48,2999
+GeForce GTX 970,GM204,"Sep 19th, 2014",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",1050 MHz,1753 MHz,1664 / 104 / 56,329
+GeForce GTX 980,GM204,"Sep 19th, 2014",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",1127 MHz,1753 MHz,2048 / 128 / 64,549
+Radeon R9 270 1024SP,Pitcairn,"Mar 13th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",900 MHz,1200 MHz,1024 / 64 / 32,
+Radeon R5 310 OEM,Caicos,"May 5th, 2015",PCIe 2.0 x16,"2 GB, DDR3, 64 bit",775 MHz,805 MHz,160 / 8 / 4,
+Radeon R5 310 OEM,Caicos,"May 5th, 2015",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",875 MHz,900 MHz,160 / 8 / 4,
+Radeon R5 330 OEM,Exo,"May 5th, 2015",PCIe 3.0 x8,"2 GB, DDR3, 64 bit",830 MHz,900 MHz,320 / 20 / 8,
+Radeon R5 340 OEM,Oland,"May 5th, 2015",PCIe 3.0 x8,"1024 MB, GDDR5, 64 bit",730 MHz,1150 MHz,384 / 24 / 8,
+Radeon R5 340X OEM,Oland,"May 5th, 2015",PCIe 3.0 x8,"2 GB, DDR3, 64 bit",900 MHz,1000 MHz,384 / 24 / 8,
+Radeon R7 340 OEM,Oland,"May 5th, 2015",PCIe 3.0 x8,"2 GB, DDR3, 128 bit",730 MHz,900 MHz,384 / 24 / 8,
+Radeon R7 340 OEM,Oland,"May 5th, 2015",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",730 MHz,1000 MHz,384 / 24 / 8,
+Radeon R7 350 Fake Card,Opal,2015,PCIe 3.0 x8,"2 GB, GDDR5, 64 bit",1050 MHz,1150 MHz,384 / 24 / 8,
+Radeon R7 350 OEM,Oland,"May 5th, 2015",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1000 MHz,1150 MHz,384 / 24 / 8,
+Radeon R7 350X OEM,Oland,"May 5th, 2015",PCIe 3.0 x8,"4 GB, DDR3, 128 bit",1000 MHz,1000 MHz,384 / 24 / 8,
+Radeon R7 360E,Tobago,"Dec 30th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1050 MHz,1500 MHz,768 / 48 / 16,
+Radeon R7 360,Tobago,"Jun 18th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1000 MHz,1500 MHz,768 / 48 / 16,109
+Radeon R7 360 896SP,Tobago,"Jun 18th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1100 MHz,1500 MHz,896 / 56 / 16,
+Radeon R7 370,Trinidad,"Jun 18th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",925 MHz,1400 MHz,1024 / 64 / 32,149
+Radeon R9 360 OEM,Tobago,"May 5th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1000 MHz,1625 MHz,768 / 48 / 16,
+Radeon R9 370 1024SP,Trinidad,"Jun 12th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",925 MHz,1400 MHz,1024 / 64 / 32,
+Radeon R9 370,Trinidad,"May 5th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",925 MHz,1400 MHz,1280 / 80 / 32,
+Radeon R9 370X,Trinidad,"Aug 27th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",980 MHz,1400 MHz,1280 / 80 / 32,199
+Radeon R9 380 OEM,Antigua,"May 5th, 2015",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",918 MHz,1375 MHz,1792 / 112 / 32,
+Radeon R9 380,Antigua,"Jun 18th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",970 MHz,1375 MHz,1792 / 112 / 32,199
+Radeon R9 380X,Antigua,"Nov 19th, 2015",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",970 MHz,1425 MHz,2048 / 128 / 32,229
+Radeon R9 390,Grenada,"Jun 18th, 2015",PCIe 3.0 x16,"8 GB, GDDR5, 512 bit",1000 MHz,1500 MHz,2560 / 160 / 64,329
+Radeon R9 390X,Grenada,"Jun 18th, 2015",PCIe 3.0 x16,"8 GB, GDDR5, 512 bit",1050 MHz,1500 MHz,2816 / 176 / 64,429
+Radeon R9 390 X2,Grenada,"Sep 3rd, 2015",PCIe 3.0 x16,"8 GB, GDDR5, 512 bit",1000 MHz,1350 MHz,2560 / 160 / 64,1399
+Radeon R9 Nano,Fiji,"Aug 27th, 2015",PCIe 3.0 x16,"4 GB, HBM, 4096 bit",1000 MHz,500 MHz,4096 / 256 / 64,649
+Radeon R9 FURY,Fiji,"Jul 10th, 2015",PCIe 3.0 x16,"4 GB, HBM, 4096 bit",1000 MHz,500 MHz,3584 / 224 / 64,549
+Radeon R9 FURY X,Fiji,"Jun 24th, 2015",PCIe 3.0 x16,"4 GB, HBM, 4096 bit",1050 MHz,500 MHz,4096 / 256 / 64,649
+Radeon R9 FURY X2,Capsaicin,Never Released,PCIe 3.0 x16,"4 GB, HBM, 4096 bit",1050 MHz,500 MHz,4096 / 256 / 64,
+GeForce GT 710 OEM,GK208B,"Apr 9th, 2015",PCIe 2.0 x8,"1024 MB, DDR3, 64 bit",797 MHz,900 MHz,192 / 16 / 8,
+GeForce GT 730 OEM,GK107,"Apr 9th, 2015",PCIe 3.0 x16,"1024 MB, GDDR5, 64 bit",902 MHz,1253 MHz,384 / 32 / 8,
+GeForce GT 740 OEM,GK106S,"Apr 14th, 2015",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",1006 MHz,1253 MHz,384 / 32 / 16,
+GeForce GT 740 OEM,GK106S,"Apr 14th, 2015",PCIe 3.0 x16,"1024 MB, GDDR5, 128 bit",980 MHz,1253 MHz,384 / 32 / 16,
+GeForce GTX 750 GM206,GM206,"Nov 17th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1087 MHz,1253 MHz,512 / 32 / 32,
+GeForce GTX 950,GM206,"Aug 20th, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1024 MHz,1653 MHz,768 / 48 / 32,159
+GeForce GTX 960 OEM,GM206,"Nov 26th, 2015",PCIe 3.0 x16,"4 GB, GDDR5, 128 bit",1176 MHz,1753 MHz,1024 / 64 / 32,
+GeForce GTX 960,GM206,"Jan 22nd, 2015",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1127 MHz,1753 MHz,1024 / 64 / 32,199
+GeForce GTX 960 OEM,GM204,"Nov 26th, 2015",PCIe 3.0 x16,"3 GB, GDDR5, 192 bit",924 MHz,1253 MHz,1280 / 80 / 48,
+GeForce GTX 980 Ti,GM200,"Jun 2nd, 2015",PCIe 3.0 x16,"6 GB, GDDR5, 384 bit",1000 MHz,1753 MHz,2816 / 176 / 96,649
+GeForce GTX TITAN X,GM200,"Mar 17th, 2015",PCIe 3.0 x16,"12 GB, GDDR5, 384 bit",1000 MHz,1753 MHz,3072 / 192 / 96,999
+Radeon R7 350,Cape Verde,"Jul 6th, 2016",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",800 MHz,1125 MHz,512 / 32 / 16,
+Radeon R5 430 OEM,Oland,"Jun 30th, 2016",PCIe 3.0 x8,"2 GB, GDDR5, 64 bit",730 MHz,1150 MHz,384 / 24 / 8,
+Radeon R5 435 OEM,Banks,"Jun 30th, 2016",PCIe 3.0 x8,"2 GB, DDR3, 64 bit",1030 MHz,1125 MHz,320 / 20 / 8,
+Radeon R7 430 OEM,Oland,"Jun 30th, 2016",PCIe 3.0 x8,"2 GB, DDR3, 128 bit",730 MHz,900 MHz,384 / 24 / 8,
+Radeon R7 435 OEM,Oland,"Jun 30th, 2016",PCIe 3.0 x8,"2 GB, DDR3, 64 bit",920 MHz,1000 MHz,320 / 20 / 8,
+Radeon R7 450 OEM,Cape Verde,"Jun 30th, 2016",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",925 MHz,1125 MHz,512 / 32 / 16,
+Radeon RX 455 OEM,Tobago,"Jun 30th, 2016",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1050 MHz,1625 MHz,768 / 48 / 16,
+Radeon RX 460,Baffin,"Aug 8th, 2016",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1090 MHz,1750 MHz,896 / 56 / 16,
+Radeon RX 470D,Ellesmere,"Oct 21st, 2016",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",926 MHz,1650 MHz,1792 / 112 / 32,
+Radeon RX 470,Ellesmere,"Aug 4th, 2016",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",926 MHz,1650 MHz,2048 / 128 / 32,179
+Radeon RX 480,Ellesmere,"Jun 29th, 2016",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1120 MHz,2000 MHz,2304 / 144 / 32,229
+Radeon RX 580 OEM,Ellesmere,"Jun 29th, 2016",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1120 MHz,2000 MHz,2304 / 144 / 32,
+Xbox One S GPU,Durango 2,"Aug 2nd, 2016",IGP,"8 GB, DDR3, 256 bit",914 MHz,1066 MHz,768 / 48 / 16,
+Playstation 4 Slim GPU,Liverpool 16nm,"Sep 7th, 2016",IGP,"8 GB, GDDR5, 256 bit",800 MHz,1375 MHz,1152 / 72 / 32,
+Playstation 4 Pro GPU,Neo,"Nov 10th, 2016",IGP,"8 GB, GDDR5, 256 bit",911 MHz,1700 MHz,2304 / 144 / 32,
+GeForce GT 610 OEM,GF108,"Apr 2nd, 2016",PCIe 2.0 x16,"2 GB, DDR3, 64 bit",701 MHz,500 MHz,48 / 8 / 2,
+GeForce GT 710,GF119S,"Jan 26th, 2016",PCIe 2.0 x16,"1024 MB, DDR3, 64 bit",810 MHz,898 MHz,48 / 8 / 4,
+GeForce GTX 760 OEM,GK104,"Nov 6th, 2016",PCIe 3.0 x16,"2 GB, GDDR5, 256 bit",993 MHz,1650 MHz,1344 / 112 / 32,
+GeForce GTX 950 Low Power,GM206,"Mar 1st, 2016",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1026 MHz,1653 MHz,768 / 48 / 32,159
+GeForce GTX 950 OEM,GM206S,2016,PCIe 3.0 x16,"4 GB, GDDR5, 128 bit",937 MHz,1253 MHz,1024 / 64 / 32,
+GeForce GTX 1050,GP107,"Oct 25th, 2016",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1354 MHz,1752 MHz,640 / 40 / 32,109
+GeForce GTX 1050 Ti,GP107,"Oct 25th, 2016",PCIe 3.0 x16,"4 GB, GDDR5, 128 bit",1291 MHz,1752 MHz,768 / 48 / 32,139
+GeForce GTX 1060 3 GB,GP106,"Aug 18th, 2016",PCIe 3.0 x16,"3 GB, GDDR5, 192 bit",1506 MHz,2002 MHz,1152 / 72 / 48,199
+GeForce GTX 1060 3 GB GP104,GP104,"Dec 25th, 2016",PCIe 3.0 x16,"3 GB, GDDR5, 192 bit",1506 MHz,2002 MHz,1152 / 72 / 48,199
+GeForce GTX 1060 6 GB,GP106,"Jul 19th, 2016",PCIe 3.0 x16,"6 GB, GDDR5, 192 bit",1506 MHz,2002 MHz,1280 / 80 / 48,199
+GeForce GTX 1070,GP104,"Jun 10th, 2016",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1506 MHz,2002 MHz,1920 / 120 / 64,379
+GeForce GTX 1080,GP104,"May 27th, 2016",PCIe 3.0 x16,"8 GB, GDDR5X, 256 bit",1607 MHz,1251 MHz,2560 / 160 / 64,599
+TITAN X Pascal,GP102,"Aug 2nd, 2016",PCIe 3.0 x16,"12 GB, GDDR5X, 384 bit",1417 MHz,1251 MHz,3584 / 224 / 96,1199
+Radeon RX 460 1024SP,Baffin,"Jan 17th, 2017",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1090 MHz,1750 MHz,1024 / 64 / 16,
+Radeon 520 OEM,Banks,"Apr 18th, 2017",PCIe 3.0 x8,"2 GB, GDDR5, 64 bit",1030 MHz,1125 MHz,320 / 20 / 8,
+Radeon 550,Lexa,"Apr 20th, 2017",PCIe 3.0 x8,"2 GB, GDDR5, 64 bit",1100 MHz,1750 MHz,512 / 32 / 16,79
+Radeon RX 550,Lexa,"Apr 20th, 2017",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1100 MHz,1750 MHz,512 / 32 / 16,79
+Radeon RX 550 512SP,Baffin,"Oct 13th, 2017",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1019 MHz,1500 MHz,512 / 32 / 16,79
+Radeon RX 550 640SP,Baffin,"Oct 13th, 2017",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1019 MHz,1500 MHz,640 / 40 / 16,
+Radeon RX 560D,Polaris 21,"Jul 4th, 2017",PCIe 3.0 x8,"4 GB, GDDR5, 128 bit",1090 MHz,1500 MHz,896 / 56 / 16,
+Radeon RX 560 896SP,Polaris 21,"Jul 4th, 2017",PCIe 3.0 x8,"4 GB, GDDR5, 128 bit",1090 MHz,1750 MHz,896 / 56 / 16,
+Radeon RX 560,Polaris 21,"Apr 18th, 2017",PCIe 3.0 x8,"4 GB, GDDR5, 128 bit",1175 MHz,1750 MHz,1024 / 64 / 16,99
+Radeon RX 570,Polaris 20,"Apr 18th, 2017",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",1168 MHz,1750 MHz,2048 / 128 / 32,169
+Radeon RX 580,Polaris 20,"Apr 18th, 2017",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1257 MHz,2000 MHz,2304 / 144 / 32,229
+Radeon RX Vega 56,Vega 10,"Aug 14th, 2017",PCIe 3.0 x16,"8 GB, HBM2, 2048 bit",1156 MHz,800 MHz,3584 / 224 / 64,399
+Radeon RX Vega 64,Vega 10,"Aug 7th, 2017",PCIe 3.0 x16,"8 GB, HBM2, 2048 bit",1247 MHz,945 MHz,4096 / 256 / 64,499
+Radeon RX Vega 64 Limited Edition,Vega 10,"Aug 7th, 2017",PCIe 3.0 x16,"8 GB, HBM2, 2048 bit",1247 MHz,945 MHz,4096 / 256 / 64,549
+Radeon RX Vega 64 Liquid Cooling,Vega 10,"Aug 7th, 2017",PCIe 3.0 x16,"8 GB, HBM2, 2048 bit",1406 MHz,945 MHz,4096 / 256 / 64,699
+P30PH,Polaris 20,Unknown,PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",1120 MHz,2100 MHz,2048 / 128 / 32,
+Radeon RX 570 X2,Polaris 20,Unknown,PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1120 MHz,2100 MHz,2048 / 128 / 32,
+Xbox One X GPU,Scorpio,"Nov 7th, 2017",IGP,"12 GB, GDDR5, 384 bit",1172 MHz,1700 MHz,2560 / 160 / 32,
+GeForce GT 720 OEM,GK107,"Oct 29th, 2017",PCIe 3.0 x16,"1024 MB, DDR3, 128 bit",993 MHz,891 MHz,192 / 16 / 16,
+GeForce GT 1030,GP108,"May 17th, 2017",PCIe 3.0 x4,"2 GB, GDDR5, 64 bit",1228 MHz,1502 MHz,384 / 24 / 16,79
+GeForce GTX 1060 5 GB,GP106,"Dec 26th, 2017",PCIe 3.0 x16,"5 GB, GDDR5, 160 bit",1506 MHz,2002 MHz,1280 / 80 / 40,
+GeForce GTX 1060 6 GB 9Gbps,GP106,"Apr 20th, 2017",PCIe 3.0 x16,"6 GB, GDDR5, 192 bit",1506 MHz,2257 MHz,1280 / 80 / 48,299
+GeForce GTX 1070 Ti,GP104,"Nov 2nd, 2017",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1607 MHz,2002 MHz,2432 / 152 / 64,399
+GeForce GTX 1080 11Gbps,GP104,"Apr 20th, 2017",PCIe 3.0 x16,"8 GB, GDDR5X, 256 bit",1607 MHz,1376 MHz,2560 / 160 / 64,499
+GeForce GTX 1080 Ti,GP102,"Mar 10th, 2017",PCIe 3.0 x16,"11 GB, GDDR5X, 352 bit",1481 MHz,1376 MHz,3584 / 224 / 88,699
+TITAN Xp,GP102,"Apr 6th, 2017",PCIe 3.0 x16,"12 GB, GDDR5X, 384 bit",1405 MHz,1426 MHz,3840 / 240 / 96,1199
+TITAN V,GV100,"Dec 7th, 2017",PCIe 3.0 x16,"12 GB, HBM2, 3072 bit",1200 MHz,848 MHz,5120 / 320 / 96,2999
+Switch GPU 20nm,GM20B,"Mar 17th, 2017",IGP,"4 GB, DDR4, 64 bit",384 MHz,1600 MHz,256 / 16 / 16,
+Radeon RX 580 2048SP,Polaris 20,"Oct 15th, 2018",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",1168 MHz,1750 MHz,2048 / 128 / 32,
+Radeon RX 580G,Polaris 20,"Oct 15th, 2018",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1257 MHz,2000 MHz,2304 / 144 / 32,
+Radeon RX 590,Polaris 30,"Nov 15th, 2018",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1469 MHz,2000 MHz,2304 / 144 / 32,279
+Radeon 550X 640SP,Lexa,"Apr 11th, 2018",PCIe 3.0 x8,"4 GB, GDDR5, 64 bit",1019 MHz,1500 MHz,640 / 40 / 16,
+Radeon RX 550X,Lexa,"Dec 16th, 2018",PCIe 3.0 x8,"4 GB, GDDR5, 128 bit",1100 MHz,1500 MHz,512 / 32 / 16,
+Radeon RX 550X 640SP,Baffin,"Apr 11th, 2018",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1019 MHz,1500 MHz,640 / 40 / 16,
+Radeon RX 560DX,Polaris 21,"Apr 11th, 2018",PCIe 3.0 x8,"4 GB, GDDR5, 128 bit",1090 MHz,1500 MHz,896 / 56 / 16,
+Radeon RX 560X,Polaris 21,"Apr 11th, 2018",PCIe 3.0 x8,"4 GB, GDDR5, 128 bit",1175 MHz,1750 MHz,1024 / 64 / 16,
+Radeon RX 570X,Polaris 20,"Apr 11th, 2018",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1168 MHz,1750 MHz,2048 / 128 / 32,
+Radeon RX 580X,Polaris 20,"Apr 11th, 2018",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1257 MHz,2000 MHz,2304 / 144 / 32,
+Radeon RX Vega Nano,Vega 10,Never Released,PCIe 3.0 x16,"8 GB, HBM2, 2048 bit",1247 MHz,800 MHz,4096 / 256 / 64,
+Zhongshan Subor Z+ GPU,Fenghuang,"Aug 3rd, 2018",IGP,"8 GB, GDDR5, 256 bit",1300 MHz,1200 MHz,1536 / 96 / 32,
+GeForce GT 1030 DDR4,GP108,"Mar 12th, 2018",PCIe 3.0 x4,"2 GB, DDR4, 64 bit",1152 MHz,1050 MHz,384 / 24 / 16,79
+GeForce GT 1030 GK107,GK107,"Sep 30th, 2018",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",1058 MHz,1250 MHz,384 / 32 / 16,
+GeForce GTX 1050 3 GB,GP107,"May 21st, 2018",PCIe 3.0 x16,"3 GB, GDDR5, 96 bit",1392 MHz,1752 MHz,768 / 48 / 24,
+GeForce GTX 1060 6 GB Rev. 2,GP106,"Jan 5th, 2018",PCIe 3.0 x16,"6 GB, GDDR5, 192 bit",1506 MHz,2002 MHz,1280 / 80 / 48,299
+GeForce GTX 1060 6 GB GP104,GP104,"Mar 8th, 2018",PCIe 3.0 x16,"6 GB, GDDR5, 192 bit",1506 MHz,2002 MHz,1280 / 80 / 48,
+GeForce GTX 1060 6 GB GDDR5X,GP104,"Oct 18th, 2018",PCIe 3.0 x16,"6 GB, GDDR5X, 192 bit",1506 MHz,1001 MHz,1280 / 80 / 48,
+GeForce GTX 1060 8 GB GDDR5X,GP104,Never Released,PCIe 3.0 x16,"8 GB, GDDR5X, 256 bit",1506 MHz,1001 MHz,1280 / 80 / 64,
+GeForce GTX 1070 GDDR5X,GP104,"Dec 4th, 2018",PCIe 3.0 x16,"8 GB, GDDR5X, 256 bit",1506 MHz,1001 MHz,1920 / 120 / 64,
+GeForce GTX 1080 Ti 10 GB,GP102,Never Released,PCIe 3.0 x16,"10 GB, GDDR5X, 320 bit",1557 MHz,1376 MHz,3200 / 200 / 80,
+GeForce GTX 1080 Ti 12 GB,GP102,Never Released,PCIe 3.0 x16,"12 GB, GDDR5X, 384 bit",1557 MHz,1376 MHz,3200 / 200 / 80,
+TITAN V CEO Edition,GV100,"Jun 21st, 2018",PCIe 3.0 x16,"32 GB, HBM2, 4096 bit",1200 MHz,848 MHz,5120 / 320 / 128,
+GeForce RTX 2070,TU106,"Oct 17th, 2018",PCIe 3.0 x16,"8 GB, GDDR6, 256 bit",1410 MHz,1750 MHz,2304 / 144 / 64,499
+GeForce RTX 2080,TU104,"Sep 20th, 2018",PCIe 3.0 x16,"8 GB, GDDR6, 256 bit",1515 MHz,1750 MHz,2944 / 184 / 64,699
+GeForce RTX 2080 Engineering Sample,TU104,Never Released,PCIe 3.0 x16,"8 GB, GDDR6, 256 bit",1515 MHz,1750 MHz,3072 / 192 / 64,
+GeForce RTX 2080 Ti,TU102,"Sep 20th, 2018",PCIe 3.0 x16,"11 GB, GDDR6, 352 bit",1350 MHz,1750 MHz,4352 / 272 / 88,999
+TITAN RTX,TU102,"Dec 18th, 2018",PCIe 3.0 x16,"24 GB, GDDR6, 384 bit",1350 MHz,1750 MHz,4608 / 288 / 96,2499
+Radeon R7 350 640SP,Cape Verde,"Jan 7th, 2019",PCIe 3.0 x16,"2 GB, GDDR5, 128 bit",925 MHz,1125 MHz,640 / 40 / 16,
+Radeon RX 560 XT,Ellesmere,"Mar 13th, 2019",PCIe 3.0 x16,"4 GB, GDDR5, 256 bit",1074 MHz,1750 MHz,1792 / 112 / 32,
+Radeon 550X,Lexa,"Mar 27th, 2019",PCIe 3.0 x8,"2 GB, GDDR5, 128 bit",1082 MHz,1750 MHz,512 / 32 / 16,
+Radeon 625 OEM,Polaris 24,"May 13th, 2019",PCIe 3.0 x8,"2 GB, GDDR5, 64 bit",1024 MHz,1125 MHz,384 / 24 / 8,
+Radeon VII,Vega 20,"Feb 7th, 2019",PCIe 3.0 x16,"16 GB, HBM2, 4096 bit",1400 MHz,1000 MHz,3840 / 240 / 64,699
+Radeon RX 5300 XT OEM,Navi 14,"Oct 7th, 2019",PCIe 4.0 x8,"4 GB, GDDR5, 128 bit",1670 MHz,1750 MHz,1408 / 88 / 32,
+Radeon RX 5500 OEM,Navi 14,"Oct 7th, 2019",PCIe 4.0 x8,"4 GB, GDDR6, 128 bit",1500 MHz,1750 MHz,1408 / 88 / 32,
+Radeon RX 5500 XT,Navi 14,"Dec 12th, 2019",PCIe 4.0 x8,"4 GB, GDDR6, 128 bit",1607 MHz,1750 MHz,1408 / 88 / 32,169
+Radeon RX 5700,Navi 10,"Jul 7th, 2019",PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",1465 MHz,1750 MHz,2304 / 144 / 64,349
+Radeon RX 5700 XT,Navi 10,"Jul 7th, 2019",PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",1605 MHz,1750 MHz,2560 / 160 / 64,399
+Radeon RX 5700 XT 50th Anniversary,Navi 10,"Jul 7th, 2019",PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",1680 MHz,1750 MHz,2560 / 160 / 64,449
+GeForce GTX 1650,TU117,"Apr 23rd, 2019",PCIe 3.0 x16,"4 GB, GDDR5, 128 bit",1485 MHz,2001 MHz,896 / 56 / 32,149
+GeForce GTX 1650 SUPER,TU116,"Nov 22nd, 2019",PCIe 3.0 x16,"4 GB, GDDR6, 128 bit",1530 MHz,1500 MHz,1280 / 80 / 32,159
+GeForce GTX 1660,TU116,"Mar 14th, 2019",PCIe 3.0 x16,"6 GB, GDDR5, 192 bit",1530 MHz,2001 MHz,1408 / 88 / 48,219
+GeForce GTX 1660 SUPER,TU116,"Oct 29th, 2019",PCIe 3.0 x16,"6 GB, GDDR6, 192 bit",1530 MHz,1750 MHz,1408 / 88 / 48,229
+GeForce GTX 1660 Ti,TU116,"Feb 22nd, 2019",PCIe 3.0 x16,"6 GB, GDDR6, 192 bit",1500 MHz,1500 MHz,1536 / 96 / 48,279
+GeForce RTX 2060,TU106,"Jan 7th, 2019",PCIe 3.0 x16,"6 GB, GDDR6, 192 bit",1365 MHz,1750 MHz,1920 / 120 / 48,349
+GeForce RTX 2060 SUPER,TU106,"Jul 9th, 2019",PCIe 3.0 x16,"8 GB, GDDR6, 256 bit",1470 MHz,1750 MHz,2176 / 136 / 64,399
+GeForce RTX 2070 SUPER,TU104,"Jul 9th, 2019",PCIe 3.0 x16,"8 GB, GDDR6, 256 bit",1605 MHz,1750 MHz,2560 / 160 / 64,499
+GeForce RTX 2080 SUPER,TU104,"Jul 23rd, 2019",PCIe 3.0 x16,"8 GB, GDDR6, 256 bit",1650 MHz,1937 MHz,3072 / 192 / 64,699
+GeForce RTX 2080 Ti 12 GB,TU102,Never Released,PCIe 3.0 x16,"12 GB, GDDR6, 384 bit",1410 MHz,2000 MHz,4608 / 288 / 96,
+Switch GPU 16nm,GM20B,"Aug 16th, 2019",IGP,"4 GB, DDR4, 64 bit",384 MHz,1600 MHz,256 / 16 / 16,
+Radeon RX 590 GME,Polaris 20,"Mar 9th, 2020",PCIe 3.0 x16,"8 GB, GDDR5, 256 bit",1257 MHz,2000 MHz,2304 / 144 / 32,
+Radeon RX 640 OEM,Polaris 23,"Apr 9th, 2020",PCIe 3.0 x8,"4 GB, GDDR5, 128 bit",1295 MHz,1500 MHz,640 / 40 / 16,
+Radeon RX 5300 OEM,Navi 14,"May 28th, 2020",PCIe 4.0 x8,"3 GB, GDDR6, 96 bit",1327 MHz,1750 MHz,1408 / 88 / 32,
+Radeon RX 5600 OEM,Navi 10,"Jan 21st, 2020",PCIe 4.0 x16,"6 GB, GDDR6, 192 bit",1130 MHz,1500 MHz,2048 / 128 / 64,
+Radeon RX 5600 XT,Navi 10,"Jan 21st, 2020",PCIe 4.0 x16,"6 GB, GDDR6, 192 bit",1130 MHz,1500 MHz,2304 / 144 / 64,279
+Radeon RX 6800,Navi 21,"Oct 28th, 2020",PCIe 4.0 x16,"16 GB, GDDR6, 256 bit",1700 MHz,2000 MHz,3840 / 240 / 96,579
+Radeon RX 6800 XT,Navi 21,"Oct 28th, 2020",PCIe 4.0 x16,"16 GB, GDDR6, 256 bit",1825 MHz,2000 MHz,4608 / 288 / 128,649
+Radeon RX 6900 XT,Navi 21,"Oct 28th, 2020",PCIe 4.0 x16,"16 GB, GDDR6, 256 bit",1825 MHz,2000 MHz,5120 / 320 / 128,999
+Radeon RX 6900 XTX,Navi 21,Never Released,PCIe 4.0 x16,"16 GB, GDDR6, 256 bit",2075 MHz,2250 MHz,5120 / 320 / 128,
+Atari VCS 400 GPU,Banded Kestrel,"Dec 14th, 2020",IGP,"4 GB, DDR4, 128 bit",300 MHz,1200 MHz,192 / 12 / 4,
+Atari VCS 800 GPU,Banded Kestrel,"Dec 14th, 2020",IGP,"8 GB, DDR4, 128 bit",300 MHz,1200 MHz,192 / 12 / 4,
+AeroBox GPU,Kryptos,"Mar 13th, 2020",IGP,"8 GB, DDR3, 256 bit",935 MHz,1066 MHz,896 / 56 / 16,
+Xbox Series S GPU,Lockhart,"Nov 10th, 2020",IGP,"8 GB, GDDR6, 128 bit",1565 MHz,1750 MHz,1280 / 80 / 32,
+Xbox Series X GPU,Scarlett,"Nov 10th, 2020",IGP,"10 GB, GDDR6, 320 bit",1825 MHz,1750 MHz,3328 / 208 / 64,
+Playstation 5 GPU,Oberon,"Nov 12th, 2020",IGP,"16 GB, GDDR6, 256 bit",2233 MHz,1750 MHz,2304 / 144 / 64,
+Xe DG1,DG1,2020,PCIe 4.0 x8,"4 GB, LPDDR4X, 128 bit",900 MHz,2133 MHz,640 / 40 / 20,
+Xe DG1-SDV,DG1,Never Released,PCIe 4.0 x8,"8 GB, LPDDR4X, 128 bit",900 MHz,2133 MHz,768 / 48 / 24,
+Iris Xe MAX Graphics,DG1,"Oct 31st, 2020",PCIe 4.0 x8,"4 GB, LPDDR4X, 128 bit",300 MHz,2133 MHz,768 / 48 / 24,
+GeForce GTX 1650 GDDR6,TU117,"Apr 1st, 2020",PCIe 3.0 x16,"4 GB, GDDR6, 128 bit",1410 MHz,1500 MHz,896 / 56 / 32,149
+GeForce GTX 1650 TU116,TU116,"Jul 7th, 2020",PCIe 3.0 x16,"4 GB, GDDR6, 128 bit",1410 MHz,1500 MHz,896 / 56 / 32,
+GeForce GTX 1650 TU106,TU106,"Jun 18th, 2020",PCIe 3.0 x16,"4 GB, GDDR6, 128 bit",1410 MHz,1500 MHz,896 / 56 / 32,
+GeForce RTX 2060 TU104,TU104,"Jan 10th, 2020",PCIe 3.0 x16,"6 GB, GDDR6, 192 bit",1365 MHz,1750 MHz,1920 / 120 / 48,299
+GeForce RTX 3060 Ti,GA104,"Dec 1st, 2020",PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",1410 MHz,1750 MHz,4864 / 152 / 80,399
+GeForce RTX 3070,GA104,"Sep 1st, 2020",PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",1500 MHz,1750 MHz,5888 / 184 / 96,499
+GeForce RTX 3080,GA102,"Sep 1st, 2020",PCIe 4.0 x16,"10 GB, GDDR6X, 320 bit",1440 MHz,1188 MHz,8704 / 272 / 96,699
+GeForce RTX 3090,GA102,"Sep 1st, 2020",PCIe 4.0 x16,"24 GB, GDDR6X, 384 bit",1395 MHz,1219 MHz,10496 / 328 / 112,1499
+CMP 100HX-210,GV100,2020,PCIe 3.0 x16,"16 GB, HBM2, 4096 bit",555 MHz,810 MHz,5120 / 320 / 128,
+Radeon RX 6600,Navi 23,"Oct 13th, 2021",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",1626 MHz,1750 MHz,1792 / 112 / 64,329
+Radeon RX 6600 XT,Navi 23,"Jul 30th, 2021",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",1968 MHz,2000 MHz,2048 / 128 / 64,379
+Radeon RX 6700,Navi 22,"Jun 9th, 2021",PCIe 4.0 x16,"10 GB, GDDR6, 160 bit",1941 MHz,2000 MHz,2304 / 144 / 64,
+Radeon RX 6700 XT,Navi 22,"Mar 3rd, 2021",PCIe 4.0 x16,"12 GB, GDDR6, 192 bit",2321 MHz,2000 MHz,2560 / 160 / 64,479
+GeForce GT 1010 DDR4,GP108,"Jan 13th, 2021",PCIe 3.0 x4,"2 GB, DDR4, 64 bit",1152 MHz,1050 MHz,256 / 16 / 8,
+GeForce GT 1010,GP108,"Jan 13th, 2021",PCIe 3.0 x4,"2 GB, GDDR5, 64 bit",1228 MHz,1502 MHz,256 / 16 / 8,
+GeForce RTX 2060 12 GB,TU106,"Dec 7th, 2021",PCIe 3.0 x16,"12 GB, GDDR6, 192 bit",1470 MHz,1750 MHz,2176 / 136 / 48,
+GeForce RTX 3060 12 GB,GA106,"Jan 12th, 2021",PCIe 4.0 x16,"12 GB, GDDR6, 192 bit",1320 MHz,1875 MHz,3584 / 112 / 48,329
+GeForce RTX 3060 12 GB GA104,GA104,"Sep 1st, 2021",PCIe 4.0 x16,"12 GB, GDDR6, 192 bit",1320 MHz,1875 MHz,3584 / 112 / 64,329
+GeForce RTX 3060 3840SP,GA106,2021,PCIe 4.0 x16,"6 GB, GDDR6, 192 bit",1627 MHz,1750 MHz,3840 / 120 / 48,
+GeForce RTX 3070 Ti,GA104,"May 31st, 2021",PCIe 4.0 x16,"8 GB, GDDR6X, 256 bit",1575 MHz,1188 MHz,6144 / 192 / 96,599
+GeForce RTX 3080 Ti,GA102,"May 31st, 2021",PCIe 4.0 x16,"12 GB, GDDR6X, 384 bit",1365 MHz,1188 MHz,10240 / 320 / 112,1199
+Radeon RX 6300,Navi 24,Never Released,PCIe 4.0 x4,"2 GB, GDDR6, 32 bit",1000 MHz,2000 MHz,768 / 48 / 32,
+Radeon RX 6400,Navi 24,"Jan 19th, 2022",PCIe 4.0 x4,"4 GB, GDDR6, 64 bit",1923 MHz,2000 MHz,768 / 48 / 32,159
+Radeon RX 6500 XT,Navi 24,"Jan 19th, 2022",PCIe 4.0 x4,"4 GB, GDDR6, 64 bit",2310 MHz,2248 MHz,1024 / 64 / 32,199
+Radeon RX 6650 XT,Navi 23,"May 10th, 2022",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",2055 MHz,2190 MHz,2048 / 128 / 64,399
+Radeon RX 6750 XT,Navi 22,"Mar 3rd, 2022",PCIe 4.0 x16,"12 GB, GDDR6, 192 bit",2150 MHz,2250 MHz,2560 / 160 / 64,549
+Radeon RX 6950 XT,Navi 21,"May 10th, 2022",PCIe 4.0 x16,"16 GB, GDDR6, 256 bit",1860 MHz,2250 MHz,5120 / 320 / 128,1099
+Radeon RX 7900 XT,Navi 31,"Nov 3rd, 2022",PCIe 4.0 x16,"20 GB, GDDR6, 320 bit",1387 MHz,2500 MHz,5376 / 336 / 192,899
+Radeon RX 7900 XTX,Navi 31,"Nov 3rd, 2022",PCIe 4.0 x16,"24 GB, GDDR6, 384 bit",1929 MHz,2500 MHz,6144 / 384 / 192,999
+Radeon RX 7950 XT,Navi 31,Never Released,PCIe 4.0 x16,"20 GB, GDDR6, 320 bit",2000 MHz,2500 MHz,5376 / 336 / 192,
+Radeon RX 7950 XTX,Navi 31,Never Released,PCIe 4.0 x16,"24 GB, GDDR6, 384 bit",2200 MHz,2500 MHz,6144 / 384 / 192,
+Steam Deck GPU,Van Gogh,"Feb 25th, 2022",IGP,"16 GB, LPDDR5, 128 bit",1000 MHz,1375 MHz,512 / 32 / 16,
+Playstation 5 GPU,Oberon Plus,"Sep 28th, 2022",IGP,"16 GB, GDDR6, 256 bit",2233 MHz,1750 MHz,2304 / 144 / 64,
+Arc A310,DG2-128,"Oct 12th, 2022",PCIe 4.0 x8,"4 GB, GDDR6, 64 bit",1750 MHz,1937 MHz,768 / 32 / 16,
+Arc A350,DG2-128,2022,PCIe 4.0 x8,"4 GB, GDDR6, 64 bit",2000 MHz,1937 MHz,768 / 48 / 24,
+Arc A380,DG2-128,"Jun 14th, 2022",PCIe 4.0 x8,"6 GB, GDDR6, 96 bit",2000 MHz,1937 MHz,1024 / 64 / 32,149
+Arc A750,DG2-512,"Oct 12th, 2022",PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",2050 MHz,2000 MHz,3584 / 224 / 112,289
+Arc A770,DG2-512,"Oct 12th, 2022",PCIe 4.0 x16,"16 GB, GDDR6, 256 bit",2100 MHz,2000 MHz,4096 / 256 / 128,329
+Arc A780,DG2-512,Never Released,PCIe 4.0 x16,"16 GB, GDDR6X, 256 bit",2200 MHz,1093 MHz,4096 / 256 / 128,
+GeForce GTX 1630,TU117,"Jun 28th, 2022",PCIe 3.0 x8,"4 GB, GDDR6, 64 bit",1740 MHz,1500 MHz,512 / 32 / 16,
+GeForce RTX 3050 4 GB,GA107,"Jan 27th, 2022",PCIe 4.0 x8,"4 GB, GDDR6, 128 bit",1545 MHz,1500 MHz,2048 / 64 / 32,199
+GeForce RTX 3050 OEM,GA106,"Jan 4th, 2022",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",1515 MHz,1750 MHz,2304 / 72 / 32,
+GeForce RTX 3050 8 GB GA107,GA107,"Dec 16th, 2022",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",1552 MHz,1750 MHz,2560 / 80 / 32,249
+GeForce RTX 3050 8 GB,GA106,"Jan 4th, 2022",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",1552 MHz,1750 MHz,2560 / 80 / 32,249
+GeForce RTX 3060 8 GB,GA106,"Oct 12th, 2022",PCIe 4.0 x16,"8 GB, GDDR6, 128 bit",1320 MHz,1875 MHz,3584 / 112 / 48,
+GeForce RTX 3060 8 GB GA104,GA104,Oct-1,PCIe 4.0 x16,"8 GB, GDDR6, 128 bit",1320 MHz,1875 MHz,3584 / 112 / 64,
+GeForce RTX 3060 Ti GA103,GA103,"Feb 23rd, 2022",PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",1410 MHz,1750 MHz,4864 / 152 / 80,399
+GeForce RTX 3060 Ti GDDR6X,GA104,"Oct 19th, 2022",PCIe 4.0 x16,"8 GB, GDDR6X, 256 bit",1410 MHz,1188 MHz,4864 / 152 / 80,
+GeForce RTX 3070 TiM,GA104,Nov-22,PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",915 MHz,1750 MHz,5888 / 184 / 96,
+GeForce RTX 3070 Ti 8 GB GA102,GA102,"Oct 21st, 2022",PCIe 4.0 x16,"8 GB, GDDR6X, 256 bit",1575 MHz,1188 MHz,6144 / 192 / 96,
+GeForce RTX 3070 Ti 16 GB,GA104,Never Released,PCIe 4.0 x16,"16 GB, GDDR6X, 256 bit",1575 MHz,1188 MHz,6144 / 192 / 96,699
+GeForce RTX 3080 12 GB,GA102,"Jan 11th, 2022",PCIe 4.0 x16,"12 GB, GDDR6X, 384 bit",1260 MHz,1188 MHz,8960 / 280 / 96,799
+GeForce RTX 3080 Ti 20 GB,GA102,"Jan 22nd, 2022",PCIe 4.0 x16,"20 GB, GDDR6X, 320 bit",1335 MHz,1188 MHz,10240 / 320 / 112,1199
+GeForce RTX 3090 Ti,GA102,"Jan 27th, 2022",PCIe 4.0 x16,"24 GB, GDDR6X, 384 bit",1560 MHz,1313 MHz,10752 / 336 / 112,1999
+GeForce RTX 4080 12 GB,AD104,Never Released,PCIe 4.0 x16,"12 GB, GDDR6X, 192 bit",2310 MHz,1313 MHz,7680 / 240 / 80,
+GeForce RTX 4080,AD103,"Sep 20th, 2022",PCIe 4.0 x16,"16 GB, GDDR6X, 256 bit",2205 MHz,1400 MHz,9728 / 304 / 112,1199
+GeForce RTX 4090,AD102,"Sep 20th, 2022",PCIe 4.0 x16,"24 GB, GDDR6X, 384 bit",2235 MHz,1313 MHz,16384 / 512 / 176,1599
+Radeon RX 6750 GRE 10 GB,Navi 22,"Oct 17th, 2023",PCIe 4.0 x16,"10 GB, GDDR6, 160 bit",1941 MHz,2000 MHz,2304 / 144 / 64,309
+Radeon RX 6750 GRE 12 GB,Navi 22,"Oct 17th, 2023",PCIe 4.0 x16,"12 GB, GDDR6, 192 bit",2321 MHz,2250 MHz,2560 / 160 / 64,334
+Radeon RX 7500 XT,Navi 33,Never Released,PCIe 4.0 x8,"6 GB, GDDR6, 96 bit",1452 MHz,2250 MHz,1024 / 64 / 32,
+Radeon RX 7600,Navi 33,"May 24th, 2023",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",1720 MHz,2250 MHz,2048 / 128 / 64,269
+Radeon RX 7700,Navi 32,2023,PCIe 4.0 x16,"12 GB, GDDR6, 192 bit",1900 MHz,2250 MHz,3072 / 192 / 96,
+Radeon RX 7700 XT,Navi 32,"Aug 25th, 2023",PCIe 4.0 x16,"12 GB, GDDR6, 192 bit",1435 MHz,2250 MHz,3456 / 216 / 96,449
+Radeon RX 7800 XT,Navi 32,"Aug 25th, 2023",PCIe 4.0 x16,"16 GB, GDDR6, 256 bit",1295 MHz,2438 MHz,3840 / 240 / 96,499
+Radeon RX 7900 GRE,Navi 31,"Jul 27th, 2023",PCIe 4.0 x16,"16 GB, GDDR6, 256 bit",1287 MHz,2250 MHz,5120 / 320 / 160,
+Radeon RX 7990 XTX,Navi 31,Never Released,PCIe 4.0 x16,"24 GB, GDDR6, 384 bit",2500 MHz,3000 MHz,6144 / 384 / 192,
+Steam Deck OLED GPU,Sephiroth,"Nov 9th, 2023",IGP,"16 GB, LPDDR5, 128 bit",1000 MHz,1375 MHz,512 / 32 / 16,
+ROG Ally GPU,Phoenix,2023,PCIe 4.0 x4,"16 GB, LPDDR5, 64 bit",1500 MHz,1600 MHz,256 / 16 / 8,
+ROG Ally Extreme GPU,Phoenix,"Jun 13th, 2023",PCIe 4.0 x4,"16 GB, LPDDR5, 64 bit",1500 MHz,1600 MHz,768 / 48 / 32,
+Arc A580,DG2-512,"Oct 10th, 2023",PCIe 4.0 x16,"8 GB, GDDR6, 256 bit",1700 MHz,2000 MHz,3072 / 192 / 96,
+GeForce RTX 4050,AD107,Unknown,PCIe 4.0 x8,"6 GB, GDDR6, 96 bit",2505 MHz,2250 MHz,2560 / 80 / 32,
+GeForce RTX 4060,AD107,"May 18th, 2023",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",1830 MHz,2125 MHz,3072 / 96 / 48,299
+GeForce RTX 4060 Ti 8 GB,AD106,"May 18th, 2023",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",2310 MHz,2250 MHz,4352 / 136 / 48,399
+GeForce RTX 4060 Ti 16 GB,AD106,"May 18th, 2023",PCIe 4.0 x8,"16 GB, GDDR6, 128 bit",2310 MHz,2250 MHz,4352 / 136 / 48,499
+GeForce RTX 4070,AD104,"Apr 12th, 2023",PCIe 4.0 x16,"12 GB, GDDR6X, 192 bit",1920 MHz,1313 MHz,5888 / 184 / 64,599
+GeForce RTX 4070 Ti,AD104,"Jan 3rd, 2023",PCIe 4.0 x16,"12 GB, GDDR6X, 192 bit",2310 MHz,1313 MHz,7680 / 240 / 80,799
+GeForce RTX 4080 Ti,AD102,Never Released,PCIe 4.0 x16,"20 GB, GDDR6X, 320 bit",2100 MHz,1325 MHz,14080 / 440 / 144,
+GeForce RTX 4090 Ti,AD102,Never Released,PCIe 4.0 x16,"24 GB, GDDR6X, 384 bit",2325 MHz,1500 MHz,18176 / 568 / 192,
+TITAN Ada,AD102,Never Released,PCIe 4.0 x16,"48 GB, GDDR6X, 384 bit",2235 MHz,1500 MHz,18432 / 576 / 192,
+Radeon RX 7600 XT,Navi 33,"Jan 8th, 2024",PCIe 4.0 x8,"16 GB, GDDR6, 128 bit",1980 MHz,2250 MHz,2048 / 128 / 64,329
+GeForce RTX 3050 6 GB,GA107,"Feb 2nd, 2024",PCIe 4.0 x8,"6 GB, GDDR6, 96 bit",1042 MHz,1750 MHz,2304 / 72 / 32,179
+GeForce RTX 4060 AD106,AD106,Apr-24,PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",1830 MHz,2125 MHz,3072 / 96 / 48,
+GeForce RTX 4060 Ti AD104,AD104,"Apr 24th, 2024",PCIe 4.0 x8,"8 GB, GDDR6, 128 bit",2310 MHz,2250 MHz,4352 / 136 / 48,399
+GeForce RTX 4070 AD103,AD103,"Mar 1st, 2024",PCIe 4.0 x16,"12 GB, GDDR6X, 192 bit",1920 MHz,1313 MHz,5888 / 184 / 64,599
+GeForce RTX 4070 SUPER,AD104,"Jan 8th, 2024",PCIe 4.0 x16,"12 GB, GDDR6X, 192 bit",1980 MHz,1313 MHz,7168 / 224 / 80,599
+GeForce RTX 4070 Ti SUPER,AD103,"Jan 8th, 2024",PCIe 4.0 x16,"16 GB, GDDR6X, 256 bit",2340 MHz,1313 MHz,8448 / 264 / 96,799
+GeForce RTX 4080 SUPER,AD103,"Jan 8th, 2024",PCIe 4.0 x16,"16 GB, GDDR6X, 256 bit",2295 MHz,1438 MHz,10240 / 320 / 112,999
